@@ -664,7 +664,7 @@
   </commands>
   <abilities>
     <category icon="general.png" label="Unsorted" name="general"></category>
-    <category icon="burglar.jpg" label="Burglar" name="burglar">
+    <category icon="burglar.png" label="Burglar" name="burglar">
       <ability icon="sk_burglar_smallsnag_r1.png" label="A Small Snag" name="asmallsnag" />
       <ability icon="sk_burglar_befuddle_r1.png" label="Addle" name="addle" />
       <ability icon="sk_burglar_startlingtwist_advanced_r1.png" label="Advanced Startling Twist" name="advancedstartlingtwist" />
@@ -716,7 +716,7 @@
       <ability icon="sk_burglar_trip_r1.png" label="Trip" name="trip" />
       <ability icon="sk_burglar_wellplacedstrike_r1.png" label="Well-placed Strike" name="wellplacedstrike" />
     </category>
-    <category icon="captain.jpg" label="Captain" name="captain">
+    <category icon="captain.png" label="Captain" name="captain">
       <ability icon="sk_captain_battlecry_r1.png" label="Battle-shout" name="battleshout" />
       <ability icon="sk_captain_lightofelendil_r1.png" label="Blade of Elendil" name="bladeofelendil" />
       <ability icon="sk_captain_bladebrother_toggle_r1.png" label="Blade-brother" name="bladebrother" />
@@ -766,7 +766,7 @@
       <ability icon="sk_captain_withdraw_r1.png" label="Withdraw" name="withdraw" />
       <ability icon="sk_captain_morale_hot_r1.png" label="Words of Courage" name="wordsofcourage" />
     </category>
-    <category icon="champion.jpg" label="Champion" name="champion">
+    <category icon="champion.png" label="Champion" name="champion">
       <ability icon="sk_champion_adamant.png" label="Adamant" name="adamant" />
       <ability icon="sk_champion_slowburn_r1.png" label="Ardour" name="ardour" />
       <ability icon="sk_champion_fighting_dirty_r1.png" label="Battle Acuity" name="battleacuity" />
@@ -810,7 +810,7 @@
       <ability icon="sk_champion_heroics_r2.png" label="True Heroics" name="trueheroics" />
       <ability icon="sk_champion_wildattack_r1.png" label="Wild Attack" name="wildattack" />
     </category>
-    <category icon="guardian.jpg" label="Guardian" name="guardian">
+    <category icon="guardian.png" label="Guardian" name="guardian">
       <ability icon="sk_guardian_bash_r1.png" label="Bash" name="bash" />
       <ability icon="sk_guardian_brutalassault_r1.png" label="Brutal Assault" name="brutalassault" />
       <ability icon="sk_guardian_charge_improved_r1.png" label="Brutal Charge" name="brutalcharge" />
@@ -860,7 +860,7 @@
       <ability icon="sk_guardian_warriorsheart_r1.png" label="Warrior's Heart" name="warriorsheart" />
       <ability icon="sk_guardian_whirlingevasion_r1.png" label="Whirling Retaliation" name="whirlingretaliation" />
     </category>
-    <category icon="hunter.jpg" label="Hunter" name="hunter">
+    <category icon="hunter.png" label="Hunter" name="hunter">
       <ability icon="sk_hunter_agileriposte_r1.png" label="Agile Rejoinder" name="agilerejoinder" />
       <ability icon="sk_hunter_barbedarrow_r1.png" label="Barbed Arrow" name="barbedarrow" />
       <ability icon="sk_hunter_lowerprofile_r1.png" label="Beneath Notice" name="beneathnotice" />
@@ -913,7 +913,7 @@
       <ability icon="sk_hunter_rapidfire_r1.png" label="Swift Bow" name="swiftbow" />
       <ability icon="sk_hunter_swiftstroke_r1.png" label="Swift Stroke" name="swiftstroke" />
     </category>
-    <category icon="loremaster.jpg" label="Lore-Master" name="loremaster">
+    <category icon="loremaster.png" label="Lore-Master" name="loremaster">
       <ability icon="sk_loremaster_wardingloredrakes_combo_r1.png" label="Advanced Warding Knowledge" name="advancedwardingknowledge" />
       <ability icon="sk_loremaster_chargedair_r1.png" label="Air-lore" name="airlore" />
       <ability icon="sk_loremaster_calltocraft_r1.png" label="Ancient Craft" name="ancientcraft" />
@@ -966,7 +966,7 @@
       <ability icon="sk_loremaster_calltoair_r1.png" label="Wind-lore" name="windlore" />
       <ability icon="sk_loremaster_wisdomofthecouncil_r1.png" label="Wisdom of the Council" name="wisdomofthecouncil" />
     </category>
-    <category icon="minstrel.jpg" label="Minstrel" name="minstrel">
+    <category icon="minstrel.png" label="Minstrel" name="minstrel">
       <ability icon="sk_minstrel_inspiration_major_r1.png" label="Bolster Courage" name="bolstercourage" />
       <ability icon="sk_minstrel_calltoarda_r1.png" label="Call of Oromë" name="calloforom" />
       <ability icon="sk_minstrel_calltothesecondage_r1.png" label="Call of the Second Age" name="callofthesecondage" />
@@ -1013,7 +1013,7 @@
       <ability icon="sk_minstrel_taleofwarding_r1.png" label="Tale of Warding" name="taleofwarding" />
       <ability icon="sk_minstrel_triumphantspirit_r1.png" label="Triumphant Spirit" name="triumphantspirit" />
     </category>
-    <category icon="runekeeper.jpg" label="Rune-Keeper" name="runekeeper">
+    <category icon="runekeeper.png" label="Rune-Keeper" name="runekeeper">
       <ability icon="sk_runekeeper_balance_elementalarmour_lightning.png" label="Armour of Storm" name="armourofstorm" />
       <ability icon="sk_runekeeper_balance_aggrogenbuff_instant.png" label="Calming Verse" name="calmingverse" />
       <ability icon="sk_runekeeper_lightning_nukeshaken.png" label="Ceaseless Argument" name="ceaselessargument" />
@@ -1068,7 +1068,7 @@
       <ability icon="sk_runekeeper_fire_tiereddot.png" label="Writ of Fire" name="writoffire" />
       <ability icon="sk_runekeeper_heal_hotupgrade.png" label="Writ of Health" name="writofhealth" />
     </category>
-    <category icon="warden.jpg" label="Warden" name="warden">
+    <category icon="warden.png" label="Warden" name="warden">
       <ability icon="sk_warden_adroitmaneuver.png" label="Adroit Manoeuvre" name="adroitmanoeuvre" />
       <ability icon="sk_warden_aggression.png" label="Aggression" name="aggression" />
       <ability icon="sk_warden_ambush.png" label="Ambush" name="ambush" />
