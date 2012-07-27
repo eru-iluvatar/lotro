@@ -218,362 +218,362 @@
       </command>
     </category>
     <category icon="quickslots.png" label="QuickSlots" name="quickslots">
-      <command icon="" label="Bar1Button1" name="bar1button1">
+      <command slot="true" icon="" label="Bar1Button1" name="bar1button1">
         <steps>
           <keyhold alt="false" ctrl="false" key="VK_1" shift="false" />
         </steps>
       </command>
-      <command icon="" label="Bar1Button10" name="bar1button10">
+      <command slot="true" icon="" label="Bar1Button10" name="bar1button10">
         <steps>
           <keyhold alt="false" ctrl="false" key="VK_0" shift="false" />
         </steps>
       </command>
-      <command icon="" label="Bar1Button11" name="bar1button11">
+      <command slot="true" icon="" label="Bar1Button11" name="bar1button11">
         <steps>
           <keyhold alt="false" ctrl="false" key="VK_MINUS" shift="false" />
         </steps>
       </command>
-      <command icon="" label="Bar1Button12" name="bar1button12">
+      <command slot="true" icon="" label="Bar1Button12" name="bar1button12">
         <steps>
           <keyhold alt="false" ctrl="false" key="VK_EQUALS" shift="false" />
         </steps>
       </command>
-      <command icon="" label="Bar1Button2" name="bar1button2">
+      <command slot="true" icon="" label="Bar1Button2" name="bar1button2">
         <steps>
           <keyhold alt="false" ctrl="false" key="VK_2" shift="false" />
         </steps>
       </command>
-      <command icon="" label="Bar1Button3" name="bar1button3">
+      <command slot="true" icon="" label="Bar1Button3" name="bar1button3">
         <steps>
           <keyhold alt="false" ctrl="false" key="VK_3" shift="false" />
         </steps>
       </command>
-      <command icon="" label="Bar1Button4" name="bar1button4">
+      <command slot="true" icon="" label="Bar1Button4" name="bar1button4">
         <steps>
           <keyhold alt="false" ctrl="false" key="VK_4" shift="false" />
         </steps>
       </command>
-      <command icon="" label="Bar1Button5" name="bar1button5">
+      <command slot="true" icon="" label="Bar1Button5" name="bar1button5">
         <steps>
           <keyhold alt="false" ctrl="false" key="VK_5" shift="false" />
         </steps>
       </command>
-      <command icon="" label="Bar1Button6" name="bar1button6">
+      <command slot="true" icon="" label="Bar1Button6" name="bar1button6">
         <steps>
           <keyhold alt="false" ctrl="false" key="VK_6" shift="false" />
         </steps>
       </command>
-      <command icon="" label="Bar1Button7" name="bar1button7">
+      <command slot="true" icon="" label="Bar1Button7" name="bar1button7">
         <steps>
           <keyhold alt="false" ctrl="false" key="VK_7" shift="false" />
         </steps>
       </command>
-      <command icon="" label="Bar1Button8" name="bar1button8">
+      <command slot="true" icon="" label="Bar1Button8" name="bar1button8">
         <steps>
           <keyhold alt="false" ctrl="false" key="VK_8" shift="false" />
         </steps>
       </command>
-      <command icon="" label="Bar1Button9" name="bar1button9">
+      <command slot="true" icon="" label="Bar1Button9" name="bar1button9">
         <steps>
           <keyhold alt="false" ctrl="false" key="VK_9" shift="false" />
         </steps>
       </command>
-      <command icon="" label="Bar2Button1" name="bar2button1">
+      <command slot="true" icon="" label="Bar2Button1" name="bar2button1">
         <steps>
           <keyhold alt="false" ctrl="true" key="VK_1" shift="false" />
         </steps>
       </command>
-      <command icon="" label="Bar2Button2" name="bar2button2">
+      <command slot="true" icon="" label="Bar2Button2" name="bar2button2">
         <steps>
           <keyhold alt="false" ctrl="true" key="VK_2" shift="false" />
         </steps>
       </command>
-      <command icon="" label="Bar2Button3" name="bar2button3">
+      <command slot="true" icon="" label="Bar2Button3" name="bar2button3">
         <steps>
           <keyhold alt="false" ctrl="true" key="VK_3" shift="false" />
         </steps>
       </command>
-      <command icon="" label="Bar2Button4" name="bar2button4">
+      <command slot="true" icon="" label="Bar2Button4" name="bar2button4">
         <steps>
           <keyhold alt="false" ctrl="true" key="VK_4" shift="false" />
         </steps>
       </command>
-      <command icon="" label="Bar2Button5" name="bar2button5">
+      <command slot="true" icon="" label="Bar2Button5" name="bar2button5">
         <steps>
           <keyhold alt="false" ctrl="true" key="VK_5" shift="false" />
         </steps>
       </command>
-      <command icon="" label="Bar2Button6" name="bar2button6">
+      <command slot="true" icon="" label="Bar2Button6" name="bar2button6">
         <steps>
           <keyhold alt="false" ctrl="true" key="VK_6" shift="false" />
         </steps>
       </command>
-      <command icon="" label="Bar2Button7" name="bar2button7">
+      <command slot="true" icon="" label="Bar2Button7" name="bar2button7">
         <steps>
           <keyhold alt="false" ctrl="true" key="VK_7" shift="false" />
         </steps>
       </command>
-      <command icon="" label="Bar2Button8" name="bar2button8">
+      <command slot="true" icon="" label="Bar2Button8" name="bar2button8">
         <steps>
           <keyhold alt="false" ctrl="true" key="VK_8" shift="false" />
         </steps>
       </command>
-      <command icon="" label="Bar2Button9" name="bar2button9">
+      <command slot="true" icon="" label="Bar2Button9" name="bar2button9">
         <steps>
           <keyhold alt="false" ctrl="true" key="VK_9" shift="false" />
         </steps>
       </command>
-      <command icon="" label="Bar2Button10" name="bar2button10">
+      <command slot="true" icon="" label="Bar2Button10" name="bar2button10">
         <steps>
           <keyhold alt="false" ctrl="true" key="VK_0" shift="false" />
         </steps>
       </command>
-      <command icon="" label="Bar2Button11" name="bar2button11">
+      <command slot="true" icon="" label="Bar2Button11" name="bar2button11">
         <steps>
           <keyhold alt="false" ctrl="true" key="VK_MINUS" shift="false" />
         </steps>
       </command>
-      <command icon="" label="Bar2Button12" name="bar2button12">
+      <command slot="true" icon="" label="Bar2Button12" name="bar2button12">
         <steps>
           <keyhold alt="false" ctrl="true" key="VK_EQUALS" shift="false" />
         </steps>
       </command>
-      <command icon="" label="Bar3Button1" name="Bar3button1">
+      <command slot="true" icon="" label="Bar3Button1" name="Bar3button1">
         <steps>
           <keyhold alt="true" ctrl="false" key="VK_1" shift="false" />
         </steps>
       </command>
-      <command icon="" label="Bar3Button2" name="Bar3button2">
+      <command slot="true" icon="" label="Bar3Button2" name="Bar3button2">
         <steps>
           <keyhold alt="true" ctrl="false" key="VK_2" shift="false" />
         </steps>
       </command>
-      <command icon="" label="Bar3Button3" name="Bar3button3">
+      <command slot="true" icon="" label="Bar3Button3" name="Bar3button3">
         <steps>
           <keyhold alt="true" ctrl="false" key="VK_3" shift="false" />
         </steps>
       </command>
-      <command icon="" label="Bar3Button4" name="Bar3button4">
+      <command slot="true" icon="" label="Bar3Button4" name="Bar3button4">
         <steps>
           <keyhold alt="true" ctrl="false" key="VK_4" shift="false" />
         </steps>
       </command>
-      <command icon="" label="Bar3Button5" name="Bar3button5">
+      <command slot="true" icon="" label="Bar3Button5" name="Bar3button5">
         <steps>
           <keyhold alt="true" ctrl="false" key="VK_5" shift="false" />
         </steps>
       </command>
-      <command icon="" label="Bar3Button6" name="Bar3button6">
+      <command slot="true" icon="" label="Bar3Button6" name="Bar3button6">
         <steps>
           <keyhold alt="true" ctrl="false" key="VK_6" shift="false" />
         </steps>
       </command>
-      <command icon="" label="Bar3Button7" name="Bar3button7">
+      <command slot="true" icon="" label="Bar3Button7" name="Bar3button7">
         <steps>
           <keyhold alt="true" ctrl="false" key="VK_7" shift="false" />
         </steps>
       </command>
-      <command icon="" label="Bar3Button8" name="Bar3button8">
+      <command slot="true" icon="" label="Bar3Button8" name="Bar3button8">
         <steps>
           <keyhold alt="true" ctrl="false" key="VK_8" shift="false" />
         </steps>
       </command>
-      <command icon="" label="Bar3Button9" name="Bar3button9">
+      <command slot="true" icon="" label="Bar3Button9" name="Bar3button9">
         <steps>
           <keyhold alt="true" ctrl="false" key="VK_9" shift="false" />
         </steps>
       </command>
-      <command icon="" label="Bar3Button10" name="Bar3button10">
+      <command slot="true" icon="" label="Bar3Button10" name="Bar3button10">
         <steps>
           <keyhold alt="true" ctrl="false" key="VK_0" shift="false" />
         </steps>
       </command>
-      <command icon="" label="Bar3Button11" name="Bar3button11">
+      <command slot="true" icon="" label="Bar3Button11" name="Bar3button11">
         <steps>
           <keyhold alt="true" ctrl="false" key="VK_MINUS" shift="false" />
         </steps>
       </command>
-      <command icon="" label="Bar3Button12" name="Bar3button12">
+      <command slot="true" icon="" label="Bar3Button12" name="Bar3button12">
         <steps>
           <keyhold alt="true" ctrl="false" key="VK_EQUALS" shift="false" />
         </steps>
       </command>
-      <command icon="" label="Bar4Button1" name="Bar4button1">
+      <command slot="true" icon="" label="Bar4Button1" name="Bar4button1">
         <steps>
           <keyhold alt="false" ctrl="false" key="VK_1" shift="true" />
         </steps>
       </command>
-      <command icon="" label="Bar4Button2" name="Bar4button2">
+      <command slot="true" icon="" label="Bar4Button2" name="Bar4button2">
         <steps>
           <keyhold alt="false" ctrl="false" key="VK_2" shift="true" />
         </steps>
       </command>
-      <command icon="" label="Bar4Button3" name="Bar4button3">
+      <command slot="true" icon="" label="Bar4Button3" name="Bar4button3">
         <steps>
           <keyhold alt="false" ctrl="false" key="VK_3" shift="true" />
         </steps>
       </command>
-      <command icon="" label="Bar4Button4" name="Bar4button4">
+      <command slot="true" icon="" label="Bar4Button4" name="Bar4button4">
         <steps>
           <keyhold alt="false" ctrl="false" key="VK_4" shift="true" />
         </steps>
       </command>
-      <command icon="" label="Bar4Button5" name="Bar4button5">
+      <command slot="true" icon="" label="Bar4Button5" name="Bar4button5">
         <steps>
           <keyhold alt="false" ctrl="false" key="VK_5" shift="true" />
         </steps>
       </command>
-      <command icon="" label="Bar4Button6" name="Bar4button6">
+      <command slot="true" icon="" label="Bar4Button6" name="Bar4button6">
         <steps>
           <keyhold alt="false" ctrl="false" key="VK_6" shift="true" />
         </steps>
       </command>
-      <command icon="" label="Bar4Button7" name="Bar4button7">
+      <command slot="true" icon="" label="Bar4Button7" name="Bar4button7">
         <steps>
           <keyhold alt="false" ctrl="false" key="VK_7" shift="true" />
         </steps>
       </command>
-      <command icon="" label="Bar4Button8" name="Bar4button8">
+      <command slot="true" icon="" label="Bar4Button8" name="Bar4button8">
         <steps>
           <keyhold alt="false" ctrl="false" key="VK_8" shift="true" />
         </steps>
       </command>
-      <command icon="" label="Bar4Button9" name="Bar4button9">
+      <command slot="true" icon="" label="Bar4Button9" name="Bar4button9">
         <steps>
           <keyhold alt="false" ctrl="false" key="VK_9" shift="true" />
         </steps>
       </command>
-      <command icon="" label="Bar4Button10" name="Bar4button10">
+      <command slot="true" icon="" label="Bar4Button10" name="Bar4button10">
         <steps>
           <keyhold alt="false" ctrl="false" key="VK_0" shift="true" />
         </steps>
       </command>
-      <command icon="" label="Bar4Button11" name="Bar4button11">
+      <command slot="true" icon="" label="Bar4Button11" name="Bar4button11">
         <steps>
           <keyhold alt="false" ctrl="false" key="VK_MINUS" shift="true" />
         </steps>
       </command>
-      <command icon="" label="Bar4Button12" name="Bar4button12">
+      <command slot="true" icon="" label="Bar4Button12" name="Bar4button12">
         <steps>
           <keyhold alt="false" ctrl="false" key="VK_EQUALS" shift="true" />
         </steps>
       </command>
-      <command icon="" label="Bar5Button1" name="Bar5button1">
+      <command slot="true" icon="" label="Bar5Button1" name="Bar5button1">
         <steps>
           <keyhold alt="false" ctrl="true" key="VK_1" shift="true" />
         </steps>
       </command>
-      <command icon="" label="Bar5Button2" name="Bar5button2">
+      <command slot="true" icon="" label="Bar5Button2" name="Bar5button2">
         <steps>
           <keyhold alt="false" ctrl="true" key="VK_2" shift="true" />
         </steps>
       </command>
-      <command icon="" label="Bar5Button3" name="Bar5button3">
+      <command slot="true" icon="" label="Bar5Button3" name="Bar5button3">
         <steps>
           <keyhold alt="false" ctrl="true" key="VK_3" shift="true" />
         </steps>
       </command>
-      <command icon="" label="Bar5Button4" name="Bar5button4">
+      <command slot="true" icon="" label="Bar5Button4" name="Bar5button4">
         <steps>
           <keyhold alt="false" ctrl="true" key="VK_4" shift="true" />
         </steps>
       </command>
-      <command icon="" label="Bar5Button5" name="Bar5button5">
+      <command slot="true" icon="" label="Bar5Button5" name="Bar5button5">
         <steps>
           <keyhold alt="false" ctrl="true" key="VK_5" shift="true" />
         </steps>
       </command>
-      <command icon="" label="Bar5Button6" name="Bar5button6">
+      <command slot="true" icon="" label="Bar5Button6" name="Bar5button6">
         <steps>
           <keyhold alt="false" ctrl="true" key="VK_6" shift="true" />
         </steps>
       </command>
-      <command icon="" label="Bar5Button7" name="Bar5button7">
+      <command slot="true" icon="" label="Bar5Button7" name="Bar5button7">
         <steps>
           <keyhold alt="false" ctrl="true" key="VK_7" shift="true" />
         </steps>
       </command>
-      <command icon="" label="Bar5Button8" name="Bar5button8">
+      <command slot="true" icon="" label="Bar5Button8" name="Bar5button8">
         <steps>
           <keyhold alt="false" ctrl="true" key="VK_8" shift="true" />
         </steps>
       </command>
-      <command icon="" label="Bar5Button9" name="Bar5button9">
+      <command slot="true" icon="" label="Bar5Button9" name="Bar5button9">
         <steps>
           <keyhold alt="false" ctrl="true" key="VK_9" shift="true" />
         </steps>
       </command>
-      <command icon="" label="Bar5Button10" name="Bar5button10">
+      <command slot="true" icon="" label="Bar5Button10" name="Bar5button10">
         <steps>
           <keyhold alt="false" ctrl="true" key="VK_0" shift="true" />
         </steps>
       </command>
-      <command icon="" label="Bar5Button11" name="Bar5button11">
+      <command slot="true" icon="" label="Bar5Button11" name="Bar5button11">
         <steps>
           <keyhold alt="false" ctrl="true" key="VK_MINUS" shift="true" />
         </steps>
       </command>
-      <command icon="" label="Bar5Button12" name="Bar5button12">
+      <command slot="true" icon="" label="Bar5Button12" name="Bar5button12">
         <steps>
           <keyhold alt="false" ctrl="true" key="VK_EQUALS" shift="true" />
         </steps>
       </command>
-      <command icon="" label="Bar6Button1" name="Bar6button1">
+      <command slot="true" icon="" label="Bar6Button1" name="Bar6button1">
         <steps>
           <keyhold alt="true" ctrl="false" key="VK_1" shift="true" />
         </steps>
       </command>
-      <command icon="" label="Bar6Button2" name="Bar6button2">
+      <command slot="true" icon="" label="Bar6Button2" name="Bar6button2">
         <steps>
           <keyhold alt="true" ctrl="false" key="VK_2" shift="true" />
         </steps>
       </command>
-      <command icon="" label="Bar6Button3" name="Bar6button3">
+      <command slot="true" icon="" label="Bar6Button3" name="Bar6button3">
         <steps>
           <keyhold alt="true" ctrl="false" key="VK_3" shift="true" />
         </steps>
       </command>
-      <command icon="" label="Bar6Button4" name="Bar6button4">
+      <command slot="true" icon="" label="Bar6Button4" name="Bar6button4">
         <steps>
           <keyhold alt="true" ctrl="false" key="VK_4" shift="true" />
         </steps>
       </command>
-      <command icon="" label="Bar6Button5" name="Bar6button5">
+      <command slot="true" icon="" label="Bar6Button5" name="Bar6button5">
         <steps>
           <keyhold alt="true" ctrl="false" key="VK_5" shift="true" />
         </steps>
       </command>
-      <command icon="" label="Bar6Button6" name="Bar6button6">
+      <command slot="true" icon="" label="Bar6Button6" name="Bar6button6">
         <steps>
           <keyhold alt="true" ctrl="false" key="VK_6" shift="true" />
         </steps>
       </command>
-      <command icon="" label="Bar6Button7" name="Bar6button7">
+      <command slot="true" icon="" label="Bar6Button7" name="Bar6button7">
         <steps>
           <keyhold alt="true" ctrl="false" key="VK_7" shift="true" />
         </steps>
       </command>
-      <command icon="" label="Bar6Button8" name="Bar6button8">
+      <command slot="true" icon="" label="Bar6Button8" name="Bar6button8">
         <steps>
           <keyhold alt="true" ctrl="false" key="VK_8" shift="true" />
         </steps>
       </command>
-      <command icon="" label="Bar6Button9" name="Bar6button9">
+      <command slot="true" icon="" label="Bar6Button9" name="Bar6button9">
         <steps>
           <keyhold alt="true" ctrl="false" key="VK_9" shift="true" />
         </steps>
       </command>
-      <command icon="" label="Bar6Button10" name="Bar6button10">
+      <command slot="true" icon="" label="Bar6Button10" name="Bar6button10">
         <steps>
           <keyhold alt="true" ctrl="false" key="VK_0" shift="true" />
         </steps>
       </command>
-      <command icon="" label="Bar6Button11" name="Bar6button11">
+      <command slot="true" icon="" label="Bar6Button11" name="Bar6button11">
         <steps>
           <keyhold alt="true" ctrl="false" key="VK_MINUS" shift="true" />
         </steps>
       </command>
-      <command icon="" label="Bar6Button12" name="Bar6button12">
+      <command slot="true" icon="" label="Bar6Button12" name="Bar6button12">
         <steps>
           <keyhold alt="true" ctrl="false" key="VK_EQUALS" shift="true" />
         </steps>
