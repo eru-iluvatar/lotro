@@ -1,1161 +1,1135 @@
-﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
-<controller>
+<?xml version="1.0" encoding="utf-8" standalone="no"?><controller>
   <settings>
-    <title label="The Lord of the Rings Online" name="lotro" type="MMORPG" />
+    <title label="The Lord of the Rings Online" name="lotro" type="MMORPG"/>
     <devices>
-      <device landscape="true" portrait="true" type="mobile" />
-      <device landscape="true" portrait="true" type="tablet" />
-      <device landscape="true" portrait="true" type="note" />
+      <device landscape="true" portrait="true" type="mobile"/>
+      <device landscape="true" portrait="true" type="tablet"/>
+      <device landscape="true" portrait="true" type="note"/>
     </devices>
     <defaults>
-      <setting name="backgroundColor1" value="0x111111" />
-      <setting name="backgroundColor2" value="0x000000" />
-      <setting name="backgroundColorAngle" value="90" />
-      <setting name="cellSpacingHorizontal" value="4" />
-      <setting name="cellSpacingVertical" value="4" />
-      <setting name="cellBorderColor" value="0x000088" />
-      <setting name="cellBorderColorDown" value="0x0000FF" />
-      <setting name="cellBorderColorDisabled" value="0x000055" />
-      <setting name="textColor" value="0xFFFFFF" />
-      <setting name="textBackgroundColor" value="0x000000" />
-      <setting name="textBackgroundAlpha" value="0.5" />
+      <setting name="backgroundColor1" value="0x111111"/>
+      <setting name="backgroundColor2" value="0x000000"/>
+      <setting name="backgroundColorAngle" value="90"/>
+      <setting name="cellSpacingHorizontal" value="4"/>
+      <setting name="cellSpacingVertical" value="4"/>
+      <setting name="cellBorderColor" value="0x000088"/>
+      <setting name="cellBorderColorDown" value="0x0000FF"/>
+      <setting name="cellBorderColorDisabled" value="0x000055"/>
+      <setting name="textColor" value="0xFFFFFF"/>
+      <setting name="textBackgroundColor" value="0x000000"/>
+      <setting name="textBackgroundAlpha" value="0.5"/>
     </defaults>
   </settings>
   <commands>
     <category icon="camera.png" label="Camera" name="camera">
       <command icon="camera.png.png" label="Reset Camera" name="resetcamera">
         <steps>
-          <keypress alt="false" ctrl="false" key="VK_NUMPAD0" shift="false" />
+          <keypress alt="false" ctrl="false" key="VK_NUMPAD0" shift="false"/>
         </steps>
       </command>
       <command icon="cameraleft.png" label="Rotate Camera Left" name="rotatecameraleft">
         <steps>
-          <keypress alt="false" ctrl="false" key="VK_NUMPAD4" shift="false" />
+          <keypress alt="false" ctrl="false" key="VK_NUMPAD4" shift="false"/>
         </steps>
       </command>
       <command icon="cameraright.png" label="Rotate Camera Right" name="rotatecameraright">
         <steps>
-          <keypress alt="false" ctrl="false" key="VK_NUMPAD5" shift="false" />
+          <keypress alt="false" ctrl="false" key="VK_NUMPAD5" shift="false"/>
         </steps>
       </command>
       <command icon="cameraup.png" label="Pitch Camera Up" name="pitchcameraup">
         <steps>
-          <keypress alt="false" ctrl="false" key="VK_NUMPAD8" shift="false" />
+          <keypress alt="false" ctrl="false" key="VK_NUMPAD8" shift="false"/>
         </steps>
       </command>
       <command icon="cameradown.png" label="Pitch Camera Down" name="pitchcameradown">
         <steps>
-          <keypress alt="false" ctrl="false" key="VK_NUMPAD2" shift="false" />
+          <keypress alt="false" ctrl="false" key="VK_NUMPAD2" shift="false"/>
         </steps>
       </command>
       <command icon="camerazoomin.png" label="CameraZoomIn" name="camerazoomin">
         <steps>
-          <keypress alt="false" ctrl="false" key="VK_NUMPAD9" shift="false" />
+          <keypress alt="false" ctrl="false" key="VK_NUMPAD9" shift="false"/>
         </steps>
       </command>
       <command icon="camerazoomout.png" label="CameraZoomOut" name="camerazoomout">
         <steps>
-          <keypress alt="false" ctrl="false" key="VK_NUMPAD7" shift="false" />
+          <keypress alt="false" ctrl="false" key="VK_NUMPAD7" shift="false"/>
         </steps>
       </command>
     </category>
     <category icon="chat.png" label="Chat" name="chat">
       <command icon="chatreply.png" label="ChatReply" name="chatreply">
         <steps>
-          <keypress alt="false" ctrl="false" key="VK_R" shift="false" />
+          <keypress alt="false" ctrl="false" key="VK_R" shift="false"/>
         </steps>
       </command>
     </category>
     <category icon="interface.png" label="Interface" name="interface">
       <command icon="power.png" label="Control" name="control">
         <steps>
-          <keyhold alt="false" ctrl="true" key="" shift="false" />
+          <keyhold alt="false" ctrl="true" key="" shift="false"/>
         </steps>
       </command>
       <command icon="escape.png" label="Escape" name="escape">
         <steps>
-          <keypress alt="false" ctrl="false" key="VK_ESCAPE" shift="false" />
+          <keypress alt="false" ctrl="false" key="VK_ESCAPE" shift="false"/>
         </steps>
       </command>
-      <command icon="skills.jpg" label="Skill Panel" name="skillpanel">
+      <command icon="skills.png" label="Skill Panel" name="skillpanel">
         <steps>
-          <keypress alt="false" ctrl="false" key="VK_K" shift="false" />
+          <keypress alt="false" ctrl="false" key="VK_K" shift="false"/>
         </steps>
       </command>
-      <command icon="character.jpg" label="Character Panel" name="characterpanel">
+      <command icon="character.png" label="Character Panel" name="characterpanel">
         <steps>
-          <keypress alt="false" ctrl="false" key="VK_C" shift="false" />
+          <keypress alt="false" ctrl="false" key="VK_C" shift="false"/>
         </steps>
       </command>
-      <command icon="traits.jpg" label="Traits Panel" name="traitspanel">
+      <command icon="traits.png" label="Traits Panel" name="traitspanel">
         <steps>
-          <keypress alt="false" ctrl="true" key="VK_J" shift="false" />
+          <keypress alt="false" ctrl="true" key="VK_J" shift="false"/>
         </steps>
       </command>
-      <command icon="crafting.jpg" label="Crafting Panel" name="craftingpanel">
+      <command icon="crafting.png" label="Crafting Panel" name="craftingpanel">
         <steps>
-          <keypress alt="false" ctrl="false" key="VK_T" shift="false" />
+          <keypress alt="false" ctrl="false" key="VK_T" shift="false"/>
         </steps>
       </command>
-      <command icon="help.jpg" label="Help Panel" name="helppanel">
+      <command icon="help.png" label="Help Panel" name="helppanel">
         <steps>
-          <keypress alt="false" ctrl="true" key="VK_F7" shift="false" />
+          <keypress alt="false" ctrl="true" key="VK_F7" shift="false"/>
         </steps>
       </command>
-      <command icon="social.jpg" label="Social Panel" name="socialpanel">
+      <command icon="social.png" label="Social Panel" name="socialpanel">
         <steps>
-          <keypress alt="false" ctrl="false" key="VK_O" shift="false" />
+          <keypress alt="false" ctrl="false" key="VK_O" shift="false"/>
         </steps>
       </command>
-      <command icon="inventory.jpg" label="Inventory Panel" name="inventorypanel">
+      <command icon="inventory.png" label="Inventory Panel" name="inventorypanel">
         <steps>
-          <keypress alt="false" ctrl="false" key="VK_I" shift="false" />
+          <keypress alt="false" ctrl="false" key="VK_I" shift="false"/>
         </steps>
       </command>
       <command icon="map.png" label="Map" name="map">
         <steps>
-          <keypress alt="false" ctrl="false" key="VK_M" shift="false" />
+          <keypress alt="false" ctrl="false" key="VK_M" shift="false"/>
         </steps>
       </command>
-      <command icon="quests.jpg" label="Quest Panel" name="questpanel">
+      <command icon="quests.png" label="Quest Panel" name="questpanel">
         <steps>
-          <keypress alt="false" ctrl="false" key="VK_L" shift="false" />
+          <keypress alt="false" ctrl="false" key="VK_L" shift="false"/>
         </steps>
       </command>
-      <command icon="settings.jpg" label="Options Panel" name="optionspanel">
+      <command icon="settings.png" label="Options Panel" name="optionspanel">
         <steps>
-          <keypress alt="false" ctrl="true" key="VK_O" shift="false" />
+          <keypress alt="false" ctrl="true" key="VK_O" shift="false"/>
         </steps>
       </command>
-      <command icon="deeds.jpg" label="Deeds Panel" name="deedspanel">
+      <command icon="deeds.png" label="Deeds Panel" name="deedspanel">
         <steps>
-          <keypress alt="false" ctrl="false" key="VK_L" shift="true" />
+          <keypress alt="false" ctrl="false" key="VK_L" shift="true"/>
         </steps>
       </command>
     </category>
     <category icon="misc.png" label="Miscellaneous" name="miscellaneous">
       <command icon="use.png" label="Use Selection" name="useselection">
         <steps>
-          <keyhold alt="false" ctrl="false" key="VK_U" shift="false" />
+          <keyhold alt="false" ctrl="false" key="VK_U" shift="false"/>
         </steps>
       </command>
       <command icon="names.png" label="Show Names" name="shownames">
         <steps>
-          <keyhold alt="false" ctrl="false" key="VK_N" shift="false" />
+          <keyhold alt="false" ctrl="false" key="VK_N" shift="false"/>
         </steps>
       </command>
       <command icon="screenshot.png" label="Screen Shot" name="screenshot">
         <steps>
-          <keypress alt="false" ctrl="false" key="VK_F11" shift="false" />
+          <keypress alt="false" ctrl="false" key="VK_F11" shift="false"/>
         </steps>
       </command>
       <command icon="detach.png" label="Detach Tooltip" name="detachtooltip">
         <steps>
-          <keypress alt="false" ctrl="false" key="VK_H" shift="false" />
+          <keypress alt="false" ctrl="false" key="VK_H" shift="false"/>
         </steps>
       </command>
       <command icon="editui.png" label="Edit UI" name="editui">
         <steps>
-          <keypress alt="true" ctrl="false" key="VK_BACK_SLASH" shift="false" />
+          <keypress alt="true" ctrl="false" key="VK_BACK_SLASH" shift="false"/>
         </steps>
       </command>
       <command icon="talk.png" label="Voice Talk" name="voicetalk">
         <steps>
-          <keypress alt="false" ctrl="false" key="VK_Z" shift="false" />
+          <keypress alt="false" ctrl="false" key="VK_Z" shift="false"/>
         </steps>
       </command>
       <command icon="ui.png" label="Toggle UI" name="toggleuserinterface">
         <steps>
-          <keypress alt="false" ctrl="false" key="VK_F12" shift="false" />
+          <keypress alt="false" ctrl="false" key="VK_F12" shift="false"/>
         </steps>
       </command>
     </category>
     <category icon="movement.png" label="Movement" name="movement">
       <command icon="jump.png" label="Jump" name="jump">
         <steps>
-          <keyhold alt="false" ctrl="false" key="VK_SPACE" shift="false" />
+          <keyhold alt="false" ctrl="false" key="VK_SPACE" shift="false"/>
         </steps>
       </command>
       <command icon="down.png" label="MoveBackward" name="movebackward">
         <steps>
-          <keyhold alt="false" ctrl="false" key="VK_DOWN" shift="false" />
+          <keyhold alt="false" ctrl="false" key="VK_DOWN" shift="false"/>
         </steps>
       </command>
       <command icon="up.png" label="MoveForward" name="moveforward">
         <steps>
-          <keyhold alt="false" ctrl="false" key="VK_UP" shift="false" />
+          <keyhold alt="false" ctrl="false" key="VK_UP" shift="false"/>
         </steps>
       </command>
       <command icon="strafeleft.png" label="Strafe Left" name="strafeleft">
         <steps>
-          <keyhold alt="false" ctrl="false" key="VK_Q" shift="false" />
+          <keyhold alt="false" ctrl="false" key="VK_Q" shift="false"/>
         </steps>
       </command>
       <command icon="straferight.png" label="Strafe Right" name="straferight">
         <steps>
-          <keyhold alt="false" ctrl="false" key="VK_E" shift="false" />
+          <keyhold alt="false" ctrl="false" key="VK_E" shift="false"/>
         </steps>
       </command>
       <command icon="autorun.png" label="Toggle AutoRun" name="toggleautorun">
         <steps>
-          <keypress alt="false" ctrl="false" key="VK_NUM_LOCK" shift="false" />
+          <keypress alt="false" ctrl="false" key="VK_NUM_LOCK" shift="false"/>
         </steps>
       </command>
       <command icon="runwalk.png" label="Walk Mode" name="walkmode">
         <steps>
-          <keypress alt="false" ctrl="false" key="VK_INSERT" shift="false" />
+          <keypress alt="false" ctrl="false" key="VK_INSERT" shift="false"/>
         </steps>
       </command>
       <command icon="left.png" label="Turn Left" name="turnleft">
         <steps>
-          <keyhold alt="false" ctrl="false" key="VK_LEFT" shift="false" />
+          <keyhold alt="false" ctrl="false" key="VK_LEFT" shift="false"/>
         </steps>
       </command>
       <command icon="right.png" label="Turn Right" name="turnright">
         <steps>
-          <keyhold alt="false" ctrl="false" key="VK_RIGHT" shift="false" />
+          <keyhold alt="false" ctrl="false" key="VK_RIGHT" shift="false"/>
         </steps>
       </command>
     </category>
     <category icon="quickslots.png" label="QuickSlots" name="quickslots">
-      <command slot="true" icon="" label="Bar1Button1" name="bar1button1">
+      <command icon="" label="Bar1Button1" name="bar1button1" slot="true">
         <steps>
-          <keyhold alt="false" ctrl="false" key="VK_1" shift="false" />
+          <keyhold alt="false" ctrl="false" key="VK_1" shift="false"/>
         </steps>
       </command>
-      <command slot="true" icon="" label="Bar1Button10" name="bar1button10">
+      <command icon="" label="Bar1Button10" name="bar1button10" slot="true">
         <steps>
-          <keyhold alt="false" ctrl="false" key="VK_0" shift="false" />
+          <keyhold alt="false" ctrl="false" key="VK_0" shift="false"/>
         </steps>
       </command>
-      <command slot="true" icon="" label="Bar1Button11" name="bar1button11">
+      <command icon="" label="Bar1Button11" name="bar1button11" slot="true">
         <steps>
-          <keyhold alt="false" ctrl="false" key="VK_MINUS" shift="false" />
+          <keyhold alt="false" ctrl="false" key="VK_MINUS" shift="false"/>
         </steps>
       </command>
-      <command slot="true" icon="" label="Bar1Button12" name="bar1button12">
+      <command icon="" label="Bar1Button12" name="bar1button12" slot="true">
         <steps>
-          <keyhold alt="false" ctrl="false" key="VK_EQUALS" shift="false" />
+          <keyhold alt="false" ctrl="false" key="VK_EQUALS" shift="false"/>
         </steps>
       </command>
-      <command slot="true" icon="" label="Bar1Button2" name="bar1button2">
+      <command icon="" label="Bar1Button2" name="bar1button2" slot="true">
         <steps>
-          <keyhold alt="false" ctrl="false" key="VK_2" shift="false" />
+          <keyhold alt="false" ctrl="false" key="VK_2" shift="false"/>
         </steps>
       </command>
-      <command slot="true" icon="" label="Bar1Button3" name="bar1button3">
+      <command icon="" label="Bar1Button3" name="bar1button3" slot="true">
         <steps>
-          <keyhold alt="false" ctrl="false" key="VK_3" shift="false" />
+          <keyhold alt="false" ctrl="false" key="VK_3" shift="false"/>
         </steps>
       </command>
-      <command slot="true" icon="" label="Bar1Button4" name="bar1button4">
+      <command icon="" label="Bar1Button4" name="bar1button4" slot="true">
         <steps>
-          <keyhold alt="false" ctrl="false" key="VK_4" shift="false" />
+          <keyhold alt="false" ctrl="false" key="VK_4" shift="false"/>
         </steps>
       </command>
-      <command slot="true" icon="" label="Bar1Button5" name="bar1button5">
+      <command icon="" label="Bar1Button5" name="bar1button5" slot="true">
         <steps>
-          <keyhold alt="false" ctrl="false" key="VK_5" shift="false" />
+          <keyhold alt="false" ctrl="false" key="VK_5" shift="false"/>
         </steps>
       </command>
-      <command slot="true" icon="" label="Bar1Button6" name="bar1button6">
+      <command icon="" label="Bar1Button6" name="bar1button6" slot="true">
         <steps>
-          <keyhold alt="false" ctrl="false" key="VK_6" shift="false" />
+          <keyhold alt="false" ctrl="false" key="VK_6" shift="false"/>
         </steps>
       </command>
-      <command slot="true" icon="" label="Bar1Button7" name="bar1button7">
+      <command icon="" label="Bar1Button7" name="bar1button7" slot="true">
         <steps>
-          <keyhold alt="false" ctrl="false" key="VK_7" shift="false" />
+          <keyhold alt="false" ctrl="false" key="VK_7" shift="false"/>
         </steps>
       </command>
-      <command slot="true" icon="" label="Bar1Button8" name="bar1button8">
+      <command icon="" label="Bar1Button8" name="bar1button8" slot="true">
         <steps>
-          <keyhold alt="false" ctrl="false" key="VK_8" shift="false" />
+          <keyhold alt="false" ctrl="false" key="VK_8" shift="false"/>
         </steps>
       </command>
-      <command slot="true" icon="" label="Bar1Button9" name="bar1button9">
+      <command icon="" label="Bar1Button9" name="bar1button9" slot="true">
         <steps>
-          <keyhold alt="false" ctrl="false" key="VK_9" shift="false" />
+          <keyhold alt="false" ctrl="false" key="VK_9" shift="false"/>
         </steps>
       </command>
-      <command slot="true" icon="" label="Bar2Button1" name="bar2button1">
+      <command icon="" label="Bar2Button1" name="bar2button1" slot="true">
         <steps>
-          <keyhold alt="false" ctrl="true" key="VK_1" shift="false" />
+          <keyhold alt="false" ctrl="true" key="VK_1" shift="false"/>
         </steps>
       </command>
-      <command slot="true" icon="" label="Bar2Button2" name="bar2button2">
+      <command icon="" label="Bar2Button2" name="bar2button2" slot="true">
         <steps>
-          <keyhold alt="false" ctrl="true" key="VK_2" shift="false" />
+          <keyhold alt="false" ctrl="true" key="VK_2" shift="false"/>
         </steps>
       </command>
-      <command slot="true" icon="" label="Bar2Button3" name="bar2button3">
+      <command icon="" label="Bar2Button3" name="bar2button3" slot="true">
         <steps>
-          <keyhold alt="false" ctrl="true" key="VK_3" shift="false" />
+          <keyhold alt="false" ctrl="true" key="VK_3" shift="false"/>
         </steps>
       </command>
-      <command slot="true" icon="" label="Bar2Button4" name="bar2button4">
+      <command icon="" label="Bar2Button4" name="bar2button4" slot="true">
         <steps>
-          <keyhold alt="false" ctrl="true" key="VK_4" shift="false" />
+          <keyhold alt="false" ctrl="true" key="VK_4" shift="false"/>
         </steps>
       </command>
-      <command slot="true" icon="" label="Bar2Button5" name="bar2button5">
+      <command icon="" label="Bar2Button5" name="bar2button5" slot="true">
         <steps>
-          <keyhold alt="false" ctrl="true" key="VK_5" shift="false" />
+          <keyhold alt="false" ctrl="true" key="VK_5" shift="false"/>
         </steps>
       </command>
-      <command slot="true" icon="" label="Bar2Button6" name="bar2button6">
+      <command icon="" label="Bar2Button6" name="bar2button6" slot="true">
         <steps>
-          <keyhold alt="false" ctrl="true" key="VK_6" shift="false" />
+          <keyhold alt="false" ctrl="true" key="VK_6" shift="false"/>
         </steps>
       </command>
-      <command slot="true" icon="" label="Bar2Button7" name="bar2button7">
+      <command icon="" label="Bar2Button7" name="bar2button7" slot="true">
         <steps>
-          <keyhold alt="false" ctrl="true" key="VK_7" shift="false" />
+          <keyhold alt="false" ctrl="true" key="VK_7" shift="false"/>
         </steps>
       </command>
-      <command slot="true" icon="" label="Bar2Button8" name="bar2button8">
+      <command icon="" label="Bar2Button8" name="bar2button8" slot="true">
         <steps>
-          <keyhold alt="false" ctrl="true" key="VK_8" shift="false" />
+          <keyhold alt="false" ctrl="true" key="VK_8" shift="false"/>
         </steps>
       </command>
-      <command slot="true" icon="" label="Bar2Button9" name="bar2button9">
+      <command icon="" label="Bar2Button9" name="bar2button9" slot="true">
         <steps>
-          <keyhold alt="false" ctrl="true" key="VK_9" shift="false" />
+          <keyhold alt="false" ctrl="true" key="VK_9" shift="false"/>
         </steps>
       </command>
-      <command slot="true" icon="" label="Bar2Button10" name="bar2button10">
+      <command icon="" label="Bar2Button10" name="bar2button10" slot="true">
         <steps>
-          <keyhold alt="false" ctrl="true" key="VK_0" shift="false" />
+          <keyhold alt="false" ctrl="true" key="VK_0" shift="false"/>
         </steps>
       </command>
-      <command slot="true" icon="" label="Bar2Button11" name="bar2button11">
+      <command icon="" label="Bar2Button11" name="bar2button11" slot="true">
         <steps>
-          <keyhold alt="false" ctrl="true" key="VK_MINUS" shift="false" />
+          <keyhold alt="false" ctrl="true" key="VK_MINUS" shift="false"/>
         </steps>
       </command>
-      <command slot="true" icon="" label="Bar2Button12" name="bar2button12">
+      <command icon="" label="Bar2Button12" name="bar2button12" slot="true">
         <steps>
-          <keyhold alt="false" ctrl="true" key="VK_EQUALS" shift="false" />
+          <keyhold alt="false" ctrl="true" key="VK_EQUALS" shift="false"/>
         </steps>
       </command>
-      <command slot="true" icon="" label="Bar3Button1" name="Bar3button1">
+      <command icon="" label="Bar3Button1" name="Bar3button1" slot="true">
         <steps>
-          <keyhold alt="true" ctrl="false" key="VK_1" shift="false" />
+          <keyhold alt="true" ctrl="false" key="VK_1" shift="false"/>
         </steps>
       </command>
-      <command slot="true" icon="" label="Bar3Button2" name="Bar3button2">
+      <command icon="" label="Bar3Button2" name="Bar3button2" slot="true">
         <steps>
-          <keyhold alt="true" ctrl="false" key="VK_2" shift="false" />
+          <keyhold alt="true" ctrl="false" key="VK_2" shift="false"/>
         </steps>
       </command>
-      <command slot="true" icon="" label="Bar3Button3" name="Bar3button3">
+      <command icon="" label="Bar3Button3" name="Bar3button3" slot="true">
         <steps>
-          <keyhold alt="true" ctrl="false" key="VK_3" shift="false" />
+          <keyhold alt="true" ctrl="false" key="VK_3" shift="false"/>
         </steps>
       </command>
-      <command slot="true" icon="" label="Bar3Button4" name="Bar3button4">
+      <command icon="" label="Bar3Button4" name="Bar3button4" slot="true">
         <steps>
-          <keyhold alt="true" ctrl="false" key="VK_4" shift="false" />
+          <keyhold alt="true" ctrl="false" key="VK_4" shift="false"/>
         </steps>
       </command>
-      <command slot="true" icon="" label="Bar3Button5" name="Bar3button5">
+      <command icon="" label="Bar3Button5" name="Bar3button5" slot="true">
         <steps>
-          <keyhold alt="true" ctrl="false" key="VK_5" shift="false" />
+          <keyhold alt="true" ctrl="false" key="VK_5" shift="false"/>
         </steps>
       </command>
-      <command slot="true" icon="" label="Bar3Button6" name="Bar3button6">
+      <command icon="" label="Bar3Button6" name="Bar3button6" slot="true">
         <steps>
-          <keyhold alt="true" ctrl="false" key="VK_6" shift="false" />
+          <keyhold alt="true" ctrl="false" key="VK_6" shift="false"/>
         </steps>
       </command>
-      <command slot="true" icon="" label="Bar3Button7" name="Bar3button7">
+      <command icon="" label="Bar3Button7" name="Bar3button7" slot="true">
         <steps>
-          <keyhold alt="true" ctrl="false" key="VK_7" shift="false" />
+          <keyhold alt="true" ctrl="false" key="VK_7" shift="false"/>
         </steps>
       </command>
-      <command slot="true" icon="" label="Bar3Button8" name="Bar3button8">
+      <command icon="" label="Bar3Button8" name="Bar3button8" slot="true">
         <steps>
-          <keyhold alt="true" ctrl="false" key="VK_8" shift="false" />
+          <keyhold alt="true" ctrl="false" key="VK_8" shift="false"/>
         </steps>
       </command>
-      <command slot="true" icon="" label="Bar3Button9" name="Bar3button9">
+      <command icon="" label="Bar3Button9" name="Bar3button9" slot="true">
         <steps>
-          <keyhold alt="true" ctrl="false" key="VK_9" shift="false" />
+          <keyhold alt="true" ctrl="false" key="VK_9" shift="false"/>
         </steps>
       </command>
-      <command slot="true" icon="" label="Bar3Button10" name="Bar3button10">
+      <command icon="" label="Bar3Button10" name="Bar3button10" slot="true">
         <steps>
-          <keyhold alt="true" ctrl="false" key="VK_0" shift="false" />
+          <keyhold alt="true" ctrl="false" key="VK_0" shift="false"/>
         </steps>
       </command>
-      <command slot="true" icon="" label="Bar3Button11" name="Bar3button11">
+      <command icon="" label="Bar3Button11" name="Bar3button11" slot="true">
         <steps>
-          <keyhold alt="true" ctrl="false" key="VK_MINUS" shift="false" />
+          <keyhold alt="true" ctrl="false" key="VK_MINUS" shift="false"/>
         </steps>
       </command>
-      <command slot="true" icon="" label="Bar3Button12" name="Bar3button12">
+      <command icon="" label="Bar3Button12" name="Bar3button12" slot="true">
         <steps>
-          <keyhold alt="true" ctrl="false" key="VK_EQUALS" shift="false" />
+          <keyhold alt="true" ctrl="false" key="VK_EQUALS" shift="false"/>
         </steps>
       </command>
-      <command slot="true" icon="" label="Bar4Button1" name="Bar4button1">
+      <command icon="" label="Bar4Button1" name="Bar4button1" slot="true">
         <steps>
-          <keyhold alt="false" ctrl="false" key="VK_1" shift="true" />
+          <keyhold alt="false" ctrl="false" key="VK_1" shift="true"/>
         </steps>
       </command>
-      <command slot="true" icon="" label="Bar4Button2" name="Bar4button2">
+      <command icon="" label="Bar4Button2" name="Bar4button2" slot="true">
         <steps>
-          <keyhold alt="false" ctrl="false" key="VK_2" shift="true" />
+          <keyhold alt="false" ctrl="false" key="VK_2" shift="true"/>
         </steps>
       </command>
-      <command slot="true" icon="" label="Bar4Button3" name="Bar4button3">
+      <command icon="" label="Bar4Button3" name="Bar4button3" slot="true">
         <steps>
-          <keyhold alt="false" ctrl="false" key="VK_3" shift="true" />
+          <keyhold alt="false" ctrl="false" key="VK_3" shift="true"/>
         </steps>
       </command>
-      <command slot="true" icon="" label="Bar4Button4" name="Bar4button4">
+      <command icon="" label="Bar4Button4" name="Bar4button4" slot="true">
         <steps>
-          <keyhold alt="false" ctrl="false" key="VK_4" shift="true" />
+          <keyhold alt="false" ctrl="false" key="VK_4" shift="true"/>
         </steps>
       </command>
-      <command slot="true" icon="" label="Bar4Button5" name="Bar4button5">
+      <command icon="" label="Bar4Button5" name="Bar4button5" slot="true">
         <steps>
-          <keyhold alt="false" ctrl="false" key="VK_5" shift="true" />
+          <keyhold alt="false" ctrl="false" key="VK_5" shift="true"/>
         </steps>
       </command>
-      <command slot="true" icon="" label="Bar4Button6" name="Bar4button6">
+      <command icon="" label="Bar4Button6" name="Bar4button6" slot="true">
         <steps>
-          <keyhold alt="false" ctrl="false" key="VK_6" shift="true" />
+          <keyhold alt="false" ctrl="false" key="VK_6" shift="true"/>
         </steps>
       </command>
-      <command slot="true" icon="" label="Bar4Button7" name="Bar4button7">
+      <command icon="" label="Bar4Button7" name="Bar4button7" slot="true">
         <steps>
-          <keyhold alt="false" ctrl="false" key="VK_7" shift="true" />
+          <keyhold alt="false" ctrl="false" key="VK_7" shift="true"/>
         </steps>
       </command>
-      <command slot="true" icon="" label="Bar4Button8" name="Bar4button8">
+      <command icon="" label="Bar4Button8" name="Bar4button8" slot="true">
         <steps>
-          <keyhold alt="false" ctrl="false" key="VK_8" shift="true" />
+          <keyhold alt="false" ctrl="false" key="VK_8" shift="true"/>
         </steps>
       </command>
-      <command slot="true" icon="" label="Bar4Button9" name="Bar4button9">
+      <command icon="" label="Bar4Button9" name="Bar4button9" slot="true">
         <steps>
-          <keyhold alt="false" ctrl="false" key="VK_9" shift="true" />
+          <keyhold alt="false" ctrl="false" key="VK_9" shift="true"/>
         </steps>
       </command>
-      <command slot="true" icon="" label="Bar4Button10" name="Bar4button10">
+      <command icon="" label="Bar4Button10" name="Bar4button10" slot="true">
         <steps>
-          <keyhold alt="false" ctrl="false" key="VK_0" shift="true" />
+          <keyhold alt="false" ctrl="false" key="VK_0" shift="true"/>
         </steps>
       </command>
-      <command slot="true" icon="" label="Bar4Button11" name="Bar4button11">
+      <command icon="" label="Bar4Button11" name="Bar4button11" slot="true">
         <steps>
-          <keyhold alt="false" ctrl="false" key="VK_MINUS" shift="true" />
+          <keyhold alt="false" ctrl="false" key="VK_MINUS" shift="true"/>
         </steps>
       </command>
-      <command slot="true" icon="" label="Bar4Button12" name="Bar4button12">
+      <command icon="" label="Bar4Button12" name="Bar4button12" slot="true">
         <steps>
-          <keyhold alt="false" ctrl="false" key="VK_EQUALS" shift="true" />
+          <keyhold alt="false" ctrl="false" key="VK_EQUALS" shift="true"/>
         </steps>
       </command>
-      <command slot="true" icon="" label="Bar5Button1" name="Bar5button1">
+      <command icon="" label="Bar5Button1" name="Bar5button1" slot="true">
         <steps>
-          <keyhold alt="false" ctrl="true" key="VK_1" shift="true" />
+          <keyhold alt="false" ctrl="true" key="VK_1" shift="true"/>
         </steps>
       </command>
-      <command slot="true" icon="" label="Bar5Button2" name="Bar5button2">
+      <command icon="" label="Bar5Button2" name="Bar5button2" slot="true">
         <steps>
-          <keyhold alt="false" ctrl="true" key="VK_2" shift="true" />
+          <keyhold alt="false" ctrl="true" key="VK_2" shift="true"/>
         </steps>
       </command>
-      <command slot="true" icon="" label="Bar5Button3" name="Bar5button3">
+      <command icon="" label="Bar5Button3" name="Bar5button3" slot="true">
         <steps>
-          <keyhold alt="false" ctrl="true" key="VK_3" shift="true" />
+          <keyhold alt="false" ctrl="true" key="VK_3" shift="true"/>
         </steps>
       </command>
-      <command slot="true" icon="" label="Bar5Button4" name="Bar5button4">
+      <command icon="" label="Bar5Button4" name="Bar5button4" slot="true">
         <steps>
-          <keyhold alt="false" ctrl="true" key="VK_4" shift="true" />
+          <keyhold alt="false" ctrl="true" key="VK_4" shift="true"/>
         </steps>
       </command>
-      <command slot="true" icon="" label="Bar5Button5" name="Bar5button5">
+      <command icon="" label="Bar5Button5" name="Bar5button5" slot="true">
         <steps>
-          <keyhold alt="false" ctrl="true" key="VK_5" shift="true" />
+          <keyhold alt="false" ctrl="true" key="VK_5" shift="true"/>
         </steps>
       </command>
-      <command slot="true" icon="" label="Bar5Button6" name="Bar5button6">
+      <command icon="" label="Bar5Button6" name="Bar5button6" slot="true">
         <steps>
-          <keyhold alt="false" ctrl="true" key="VK_6" shift="true" />
+          <keyhold alt="false" ctrl="true" key="VK_6" shift="true"/>
         </steps>
       </command>
-      <command slot="true" icon="" label="Bar5Button7" name="Bar5button7">
+      <command icon="" label="Bar5Button7" name="Bar5button7" slot="true">
         <steps>
-          <keyhold alt="false" ctrl="true" key="VK_7" shift="true" />
+          <keyhold alt="false" ctrl="true" key="VK_7" shift="true"/>
         </steps>
       </command>
-      <command slot="true" icon="" label="Bar5Button8" name="Bar5button8">
+      <command icon="" label="Bar5Button8" name="Bar5button8" slot="true">
         <steps>
-          <keyhold alt="false" ctrl="true" key="VK_8" shift="true" />
+          <keyhold alt="false" ctrl="true" key="VK_8" shift="true"/>
         </steps>
       </command>
-      <command slot="true" icon="" label="Bar5Button9" name="Bar5button9">
+      <command icon="" label="Bar5Button9" name="Bar5button9" slot="true">
         <steps>
-          <keyhold alt="false" ctrl="true" key="VK_9" shift="true" />
+          <keyhold alt="false" ctrl="true" key="VK_9" shift="true"/>
         </steps>
       </command>
-      <command slot="true" icon="" label="Bar5Button10" name="Bar5button10">
+      <command icon="" label="Bar5Button10" name="Bar5button10" slot="true">
         <steps>
-          <keyhold alt="false" ctrl="true" key="VK_0" shift="true" />
+          <keyhold alt="false" ctrl="true" key="VK_0" shift="true"/>
         </steps>
       </command>
-      <command slot="true" icon="" label="Bar5Button11" name="Bar5button11">
+      <command icon="" label="Bar5Button11" name="Bar5button11" slot="true">
         <steps>
-          <keyhold alt="false" ctrl="true" key="VK_MINUS" shift="true" />
+          <keyhold alt="false" ctrl="true" key="VK_MINUS" shift="true"/>
         </steps>
       </command>
-      <command slot="true" icon="" label="Bar5Button12" name="Bar5button12">
+      <command icon="" label="Bar5Button12" name="Bar5button12" slot="true">
         <steps>
-          <keyhold alt="false" ctrl="true" key="VK_EQUALS" shift="true" />
+          <keyhold alt="false" ctrl="true" key="VK_EQUALS" shift="true"/>
         </steps>
       </command>
-      <command slot="true" icon="" label="Bar6Button1" name="Bar6button1">
+      <command icon="" label="Bar6Button1" name="Bar6button1" slot="true">
         <steps>
-          <keyhold alt="true" ctrl="false" key="VK_1" shift="true" />
+          <keyhold alt="true" ctrl="false" key="VK_1" shift="true"/>
         </steps>
       </command>
-      <command slot="true" icon="" label="Bar6Button2" name="Bar6button2">
+      <command icon="" label="Bar6Button2" name="Bar6button2" slot="true">
         <steps>
-          <keyhold alt="true" ctrl="false" key="VK_2" shift="true" />
+          <keyhold alt="true" ctrl="false" key="VK_2" shift="true"/>
         </steps>
       </command>
-      <command slot="true" icon="" label="Bar6Button3" name="Bar6button3">
+      <command icon="" label="Bar6Button3" name="Bar6button3" slot="true">
         <steps>
-          <keyhold alt="true" ctrl="false" key="VK_3" shift="true" />
+          <keyhold alt="true" ctrl="false" key="VK_3" shift="true"/>
         </steps>
       </command>
-      <command slot="true" icon="" label="Bar6Button4" name="Bar6button4">
+      <command icon="" label="Bar6Button4" name="Bar6button4" slot="true">
         <steps>
-          <keyhold alt="true" ctrl="false" key="VK_4" shift="true" />
+          <keyhold alt="true" ctrl="false" key="VK_4" shift="true"/>
         </steps>
       </command>
-      <command slot="true" icon="" label="Bar6Button5" name="Bar6button5">
+      <command icon="" label="Bar6Button5" name="Bar6button5" slot="true">
         <steps>
-          <keyhold alt="true" ctrl="false" key="VK_5" shift="true" />
+          <keyhold alt="true" ctrl="false" key="VK_5" shift="true"/>
         </steps>
       </command>
-      <command slot="true" icon="" label="Bar6Button6" name="Bar6button6">
+      <command icon="" label="Bar6Button6" name="Bar6button6" slot="true">
         <steps>
-          <keyhold alt="true" ctrl="false" key="VK_6" shift="true" />
+          <keyhold alt="true" ctrl="false" key="VK_6" shift="true"/>
         </steps>
       </command>
-      <command slot="true" icon="" label="Bar6Button7" name="Bar6button7">
+      <command icon="" label="Bar6Button7" name="Bar6button7" slot="true">
         <steps>
-          <keyhold alt="true" ctrl="false" key="VK_7" shift="true" />
+          <keyhold alt="true" ctrl="false" key="VK_7" shift="true"/>
         </steps>
       </command>
-      <command slot="true" icon="" label="Bar6Button8" name="Bar6button8">
+      <command icon="" label="Bar6Button8" name="Bar6button8" slot="true">
         <steps>
-          <keyhold alt="true" ctrl="false" key="VK_8" shift="true" />
+          <keyhold alt="true" ctrl="false" key="VK_8" shift="true"/>
         </steps>
       </command>
-      <command slot="true" icon="" label="Bar6Button9" name="Bar6button9">
+      <command icon="" label="Bar6Button9" name="Bar6button9" slot="true">
         <steps>
-          <keyhold alt="true" ctrl="false" key="VK_9" shift="true" />
+          <keyhold alt="true" ctrl="false" key="VK_9" shift="true"/>
         </steps>
       </command>
-      <command slot="true" icon="" label="Bar6Button10" name="Bar6button10">
+      <command icon="" label="Bar6Button10" name="Bar6button10" slot="true">
         <steps>
-          <keyhold alt="true" ctrl="false" key="VK_0" shift="true" />
+          <keyhold alt="true" ctrl="false" key="VK_0" shift="true"/>
         </steps>
       </command>
-      <command slot="true" icon="" label="Bar6Button11" name="Bar6button11">
+      <command icon="" label="Bar6Button11" name="Bar6button11" slot="true">
         <steps>
-          <keyhold alt="true" ctrl="false" key="VK_MINUS" shift="true" />
+          <keyhold alt="true" ctrl="false" key="VK_MINUS" shift="true"/>
         </steps>
       </command>
-      <command slot="true" icon="" label="Bar6Button12" name="Bar6button12">
+      <command icon="" label="Bar6Button12" name="Bar6button12" slot="true">
         <steps>
-          <keyhold alt="true" ctrl="false" key="VK_EQUALS" shift="true" />
+          <keyhold alt="true" ctrl="false" key="VK_EQUALS" shift="true"/>
         </steps>
       </command>
       <command icon="lock.png" label="ToggleQuickSlotLock" name="togglequickslotlock">
         <steps>
-          <keypress alt="false" ctrl="true" key="VK_L" shift="false" />
+          <keypress alt="false" ctrl="true" key="VK_L" shift="false"/>
         </steps>
       </command>
     </category>
     <category icon="targeting.jpg" label="Targeting" name="targeting">
       <command icon="assist.jpg" label="Assist" name="assist">
         <steps>
-          <keypress alt="false" ctrl="false" key="VK_F" shift="false" />
+          <keypress alt="false" ctrl="false" key="VK_F" shift="false"/>
         </steps>
       </command>
       <command icon="nearestitem.jpg" label="Select Nearest Item" name="selectnearestitem">
         <steps>
-          <keypress alt="false" ctrl="false" key="VK_DELETE" shift="false" />
+          <keypress alt="false" ctrl="false" key="VK_DELETE" shift="false"/>
         </steps>
       </command>
       <command icon="self.jpg" label="Select Self" name="selectself">
         <steps>
-          <keypress alt="false" ctrl="false" key="VK_BACK_SLASH" shift="false" />
+          <keypress alt="false" ctrl="false" key="VK_BACK_SLASH" shift="false"/>
         </steps>
       </command>
-      <command icon="targetnearestenemy.jpg" label="Select Nearest Foe" name="selectnearestfoe">
+      <command icon="nearestenemy.jpg" label="Select Nearest Foe" name="selectnearestfoe">
         <steps>
-          <keypress alt="false" ctrl="false" key="VK_BACK_SPACE" shift="false" />
+          <keypress alt="false" ctrl="false" key="VK_BACK_SPACE" shift="false"/>
         </steps>
       </command>
-      <command icon="targetnearestfriend.jpg" label="Select Nearest Fellow" name="selectnearestfellow">
+      <command icon="nearestfriend.jpg" label="Select Nearest Fellow" name="selectnearestfellow">
         <steps>
-          <keypress alt="false" ctrl="false" key="VK_F8" shift="false" />
+          <keypress alt="false" ctrl="false" key="VK_F8" shift="false"/>
         </steps>
       </command>
-      <command icon="targetnearestplayer.jpg" label="Select Nearest Player" name="selectnearestplayer">
+      <command icon="nearestplayer.jpg" label="Select Nearest Player" name="selectnearestplayer">
         <steps>
-          <keypress alt="false" ctrl="false" key="VK_F9" shift="false" />
+          <keypress alt="false" ctrl="false" key="VK_F9" shift="false"/>
         </steps>
       </command>
-      <command icon="targetnearestnpc.jpg" label="Select Nearest NPC" name="selectnearestnpc">
+      <command icon="nearestnpc.jpg" label="Select Nearest NPC" name="selectnearestnpc">
         <steps>
-          <keypress alt="false" ctrl="false" key="VK_F10" shift="false" />
+          <keypress alt="false" ctrl="false" key="VK_F10" shift="false"/>
         </steps>
       </command>
-      <command icon="targetnextenemy.jpg" label="Select Next Foe" name="selectnextfoe">
+      <command icon="nextenemy.jpg" label="Select Next Foe" name="selectnextfoe">
         <steps>
-          <keypress alt="false" ctrl="false" key="VK_TAB" shift="false" />
+          <keypress alt="false" ctrl="false" key="VK_TAB" shift="false"/>
         </steps>
       </command>
-      <command icon="targetnextplayer.jpg" label="Select Next Player" name="selectnextplayer">
+      <command icon="nextplayer.jpg" label="Select Next Player" name="selectnextplayer">
         <steps>
-          <keypress alt="false" ctrl="true" key="VK_F9" shift="true" />
+          <keypress alt="false" ctrl="true" key="VK_F9" shift="true"/>
         </steps>
       </command>
-      <command icon="selectfellow1.jpg" label="Select Fellow 1" name="selectfellow1">
+      <command icon="fellow1.jpg" label="Select Fellow 1" name="selectfellow1">
         <steps>
-          <keypress alt="false" ctrl="false" key="VK_F1" shift="true" />
+          <keypress alt="false" ctrl="false" key="VK_F1" shift="true"/>
         </steps>
       </command>
-      <command icon="selectfellow2.jpg" label="Select Fellow 2" name="selectfellow2">
+      <command icon="fellow2.jpg" label="Select Fellow 2" name="selectfellow2">
         <steps>
-          <keypress alt="false" ctrl="false" key="VK_F2" shift="true" />
+          <keypress alt="false" ctrl="false" key="VK_F2" shift="true"/>
         </steps>
       </command>
-      <command icon="selectfellow3.jpg" label="Select Fellow 3" name="selectfellow3">
+      <command icon="fellow3.jpg" label="Select Fellow 3" name="selectfellow3">
         <steps>
-          <keypress alt="false" ctrl="false" key="VK_F3" shift="true" />
+          <keypress alt="false" ctrl="false" key="VK_F3" shift="true"/>
         </steps>
       </command>
-      <command icon="selectfellow4.jpg" label="Select Fellow 4" name="selectfellow4">
+      <command icon="fellow4.jpg" label="Select Fellow 4" name="selectfellow4">
         <steps>
-          <keypress alt="false" ctrl="false" key="VK_F4" shift="true" />
+          <keypress alt="false" ctrl="false" key="VK_F4" shift="true"/>
         </steps>
       </command>
-      <command icon="selectfellow5.jpg" label="Select Fellow 5" name="selectfellow5">
+      <command icon="fellow5.jpg" label="Select Fellow 5" name="selectfellow5">
         <steps>
-          <keypress alt="false" ctrl="false" key="VK_F5" shift="true" />
+          <keypress alt="false" ctrl="false" key="VK_F5" shift="true"/>
         </steps>
       </command>
-      <command icon="selectfellow6.jpg" label="Select Fellow 6" name="selectfellow6">
+      <command icon="fellow6.jpg" label="Select Fellow 6" name="selectfellow6">
         <steps>
-          <keypress alt="false" ctrl="false" key="VK_F6" shift="true" />
+          <keypress alt="false" ctrl="false" key="VK_F6" shift="true"/>
         </steps>
       </command>
     </category>
   </commands>
   <abilities>
-    <category icon="general.png" label="Unsorted" name="general"></category>
+    <category icon="general.png" label="Unsorted" name="general"/>
     <category icon="burglar.png" label="Burglar" name="burglar">
-      <ability icon="sk_burglar_smallsnag_r1.png" label="A Small Snag" name="asmallsnag" />
-      <ability icon="sk_burglar_befuddle_r1.png" label="Addle" name="addle" />
-      <ability icon="sk_burglar_startlingtwist_advanced_r1.png" label="Advanced Startling Twist" name="advancedstartlingtwist" />
-      <ability icon="sk_burglar_aim_r1.png" label="Aim" name="aim" />
-      <ability icon="sk_burglar_burglarsadvantage_r1.png" label="Burglar's Advantage" name="burglarsadvantage" />
-      <ability icon="sk_burglar_curepoison_r2.png" label="Burglar's Antidote" name="burglarsantidote" />
-      <ability icon="sk_burglar_burgle_r1.png" label="Burgle" name="burgle" />
-      <ability icon="sk_burglar_cleverretort_r1.png" label="Clever Retort" name="cleverretort" />
-      <ability icon="sk_burglar_confound_r1.png" label="Confound" name="confound" />
-      <ability icon="sk_burglar_contactfence_r1.png" label="Contact Pedlar" name="contactpedlar" />
-      <ability icon="sk_burglar_cunningstrike_r1.png" label="Cunning Attack" name="cunningattack" />
-      <ability icon="sk_item_salve_cure_poison_tier1b.png" label="Cure Poison" name="curepoison" />
-      <ability icon="sk_burglar_distraction_r1.png" label="Diversion" name="diversion" />
-      <ability icon="sk_burglar_escapeclause_r1.png" label="Escape Clause" name="escapeclause" />
-      <ability icon="sk_burglar_revealopening_r1.png" label="Exploit Opening" name="exploitopening" />
-      <ability icon="sk_burglar_feintattack_r1.png" label="Feint Attack" name="feintattack" />
-      <ability icon="sk_burglar_findfooting_r1.png" label="Find Footing" name="findfooting" />
-      <ability icon="sk_burglar_gambler_r1.png" label="Gambler" name="gambler" />
-      <ability icon="sk_burglar_vanish_r1.png" label="Hide in Plain Sight" name="hideinplainsight" />
-      <ability icon="sk_burglar_vanish_improved_r1.png" label="Improved Hide in Plain Sight" name="improvedhideinplainsight" />
-      <ability icon="sk_burglar_riddle_improved_combo_r1.png" label="Improved Riddle" name="improvedriddle" />
-      <ability icon="sk_burglar_startlingtwist_improved_r1.png" label="Improved Startling Twist" name="improvedstartlingtwist" />
-      <ability icon="sk_burglar_subtleknife_upgraded_r1.png" label="Improved Subtle Stab" name="improvedsubtlestab" />
-      <ability icon="sk_burglar_knivesout_r1.png" label="Knives Out" name="knivesout" />
-      <ability icon="sk_burglar_locationiseverything_r1.png" label="Location Is Everything" name="locationiseverything" />
-      <ability icon="sk_burglar_luckystrike_r1.png" label="Lucky Strike" name="luckystrike" />
-      <ability icon="sk_burglar_mischief_r1.png" label="Mischief" name="mischief" />
-      <ability icon="sk_burglar_mischievousglee_r2.png" label="Mischievous Delight" name="mischievousdelight" />
-      <ability icon="sk_burglar_mischievousglee_r1.png" label="Mischievous Glee" name="mischievousglee" />
-      <ability icon="sk_burglar_practicaljoke_r1.png" label="Practical Joke" name="practicaljoke" />
-      <ability icon="sk_burglar_infuriate_r1.png" label="Provoke" name="provoke" />
-      <ability icon="sk_burglar_quietknife_r1.png" label="Quiet Knife" name="quietknife" />
-      <ability icon="sk_burglar_ready_r1.png" label="Ready and Able" name="readyandable" />
-      <ability icon="sk_burglar_enemysweakness_r1.png" label="Reveal Weakness" name="revealweakness" />
-      <ability icon="sk_burglar_riddle_r1.png" label="Riddle" name="riddle" />
-      <ability icon="sk_burglar_safefall_r1.png" label="Safe Fall" name="safefall" />
-      <ability icon="sk_burglar_sharethefun_r1.png" label="Share The Fun" name="sharethefun" />
-      <ability icon="sk_burglar_sneak_r1.png" label="Sneak" name="sneak" />
-      <ability icon="sk_burglar_startlingtwist_r1.png" label="Startling Twist" name="startlingtwist" />
-      <ability icon="sk_burglar_subtleknife_r1.png" label="Subtle Stab" name="subtlestab" />
-      <ability icon="sk_burglar_surprisestrike_r1.png" label="Surprise Strike" name="surprisestrike" />
-      <ability icon="sk_burglar_touchandgo_r1.png" label="Touch and Go" name="touchandgo" />
-      <ability icon="sk_burglar_track_treasure.png" label="Track Treasure" name="tracktreasure" />
-      <ability icon="sk_burglar_lowerdefence_r1.png" label="Trick: Counter Defence" name="trickcounterdefence" />
-      <ability icon="sk_burglar_sprain_r1.png" label="Trick: Disable" name="trickdisable" />
-      <ability icon="sk_burglar_dustintheeyes_r1.png" label="Trick: Dust in the Eyes" name="trickdustintheeyes" />
-      <ability icon="sk_burglar_enrage_r1.png" label="Trick: Enrage" name="trickenrage" />
-      <ability icon="sk_burglar_lowerdefence_upgraded_r1.png" label="Trick: Improved Counter Defence" name="trickimprovedcounterdefence" />
-      <ability icon="sk_burglar_trip_r1.png" label="Trip" name="trip" />
-      <ability icon="sk_burglar_wellplacedstrike_r1.png" label="Well-placed Strike" name="wellplacedstrike" />
+      <ability icon="sk_burglar_smallsnag_r1.png" label="A Small Snag" name="asmallsnag"/>
+      <ability icon="sk_burglar_befuddle_r1.png" label="Addle" name="addle"/>
+      <ability icon="sk_burglar_startlingtwist_advanced_r1.png" label="Advanced Startling Twist" name="advancedstartlingtwist"/>
+      <ability icon="sk_burglar_aim_r1.png" label="Aim" name="aim"/>
+      <ability icon="sk_burglar_burglarsadvantage_r1.png" label="Burglar's Advantage" name="burglarsadvantage"/>
+      <ability icon="sk_burglar_curepoison_r2.png" label="Burglar's Antidote" name="burglarsantidote"/>
+      <ability icon="sk_burglar_burgle_r1.png" label="Burgle" name="burgle"/>
+      <ability icon="sk_burglar_cleverretort_r1.png" label="Clever Retort" name="cleverretort"/>
+      <ability icon="sk_burglar_confound_r1.png" label="Confound" name="confound"/>
+      <ability icon="sk_burglar_contactfence_r1.png" label="Contact Pedlar" name="contactpedlar"/>
+      <ability icon="sk_burglar_cunningstrike_r1.png" label="Cunning Attack" name="cunningattack"/>
+      <ability icon="sk_item_salve_cure_poison_tier1b.png" label="Cure Poison" name="curepoison"/>
+      <ability icon="sk_burglar_distraction_r1.png" label="Diversion" name="diversion"/>
+      <ability icon="sk_burglar_escapeclause_r1.png" label="Escape Clause" name="escapeclause"/>
+      <ability icon="sk_burglar_revealopening_r1.png" label="Exploit Opening" name="exploitopening"/>
+      <ability icon="sk_burglar_feintattack_r1.png" label="Feint Attack" name="feintattack"/>
+      <ability icon="sk_burglar_findfooting_r1.png" label="Find Footing" name="findfooting"/>
+      <ability icon="sk_burglar_gambler_r1.png" label="Gambler" name="gambler"/>
+      <ability icon="sk_burglar_vanish_r1.png" label="Hide in Plain Sight" name="hideinplainsight"/>
+      <ability icon="sk_burglar_vanish_improved_r1.png" label="Improved Hide in Plain Sight" name="improvedhideinplainsight"/>
+      <ability icon="sk_burglar_riddle_improved_combo_r1.png" label="Improved Riddle" name="improvedriddle"/>
+      <ability icon="sk_burglar_startlingtwist_improved_r1.png" label="Improved Startling Twist" name="improvedstartlingtwist"/>
+      <ability icon="sk_burglar_subtleknife_upgraded_r1.png" label="Improved Subtle Stab" name="improvedsubtlestab"/>
+      <ability icon="sk_burglar_knivesout_r1.png" label="Knives Out" name="knivesout"/>
+      <ability icon="sk_burglar_locationiseverything_r1.png" label="Location Is Everything" name="locationiseverything"/>
+      <ability icon="sk_burglar_luckystrike_r1.png" label="Lucky Strike" name="luckystrike"/>
+      <ability icon="sk_burglar_mischief_r1.png" label="Mischief" name="mischief"/>
+      <ability icon="sk_burglar_mischievousglee_r2.png" label="Mischievous Delight" name="mischievousdelight"/>
+      <ability icon="sk_burglar_mischievousglee_r1.png" label="Mischievous Glee" name="mischievousglee"/>
+      <ability icon="sk_burglar_practicaljoke_r1.png" label="Practical Joke" name="practicaljoke"/>
+      <ability icon="sk_burglar_infuriate_r1.png" label="Provoke" name="provoke"/>
+      <ability icon="sk_burglar_quietknife_r1.png" label="Quiet Knife" name="quietknife"/>
+      <ability icon="sk_burglar_ready_r1.png" label="Ready and Able" name="readyandable"/>
+      <ability icon="sk_burglar_enemysweakness_r1.png" label="Reveal Weakness" name="revealweakness"/>
+      <ability icon="sk_burglar_riddle_r1.png" label="Riddle" name="riddle"/>
+      <ability icon="sk_burglar_safefall_r1.png" label="Safe Fall" name="safefall"/>
+      <ability icon="sk_burglar_sharethefun_r1.png" label="Share The Fun" name="sharethefun"/>
+      <ability icon="sk_burglar_sneak_r1.png" label="Sneak" name="sneak"/>
+      <ability icon="sk_burglar_startlingtwist_r1.png" label="Startling Twist" name="startlingtwist"/>
+      <ability icon="sk_burglar_subtleknife_r1.png" label="Subtle Stab" name="subtlestab"/>
+      <ability icon="sk_burglar_surprisestrike_r1.png" label="Surprise Strike" name="surprisestrike"/>
+      <ability icon="sk_burglar_touchandgo_r1.png" label="Touch and Go" name="touchandgo"/>
+      <ability icon="sk_burglar_track_treasure.png" label="Track Treasure" name="tracktreasure"/>
+      <ability icon="sk_burglar_lowerdefence_r1.png" label="Trick: Counter Defence" name="trickcounterdefence"/>
+      <ability icon="sk_burglar_sprain_r1.png" label="Trick: Disable" name="trickdisable"/>
+      <ability icon="sk_burglar_dustintheeyes_r1.png" label="Trick: Dust in the Eyes" name="trickdustintheeyes"/>
+      <ability icon="sk_burglar_enrage_r1.png" label="Trick: Enrage" name="trickenrage"/>
+      <ability icon="sk_burglar_lowerdefence_upgraded_r1.png" label="Trick: Improved Counter Defence" name="trickimprovedcounterdefence"/>
+      <ability icon="sk_burglar_trip_r1.png" label="Trip" name="trip"/>
+      <ability icon="sk_burglar_wellplacedstrike_r1.png" label="Well-placed Strike" name="wellplacedstrike"/>
     </category>
     <category icon="captain.png" label="Captain" name="captain">
-      <ability icon="sk_captain_battlecry_r1.png" label="Battle-shout" name="battleshout" />
-      <ability icon="sk_captain_lightofelendil_r1.png" label="Blade of Elendil" name="bladeofelendil" />
-      <ability icon="sk_captain_bladebrother_toggle_r1.png" label="Blade-brother" name="bladebrother" />
-      <ability icon="sk_captain_archer.png" label="Call to Arms: Archer" name="calltoarmsarcher" />
-      <ability icon="sk_captain_herald_hope_r1.png" label="Call to Arms: Herald of Hope" name="calltoarmsheraldofhope" />
-      <ability icon="sk_captain_herald_victory_r1.png" label="Call to Arms: Herald of Victory" name="calltoarmsheraldofvictory" />
-      <ability icon="sk_captain_armsman_r1.png" label="Call to Arms: Herald of War" name="calltoarmsheraldofwar" />
-      <ability icon="sk_captain_commandrespect.png" label="Command Respect" name="commandrespect" />
-      <ability icon="sk_captain_rally_r1.png" label="Cry of Vengeance" name="cryofvengeance" />
-      <ability icon="sk_captain_bleeding_strike_r1.png" label="Cutting Attack" name="cuttingattack" />
-      <ability icon="sk_captain_readying_strike_r1.png" label="Defensive Strike" name="defensivestrike" />
-      <ability icon="sk_captain_critmultiplying_strike_r1.png" label="Devastating Blow" name="devastatingblow" />
-      <ability icon="sk_captain_escapefromdarkness_r1.png" label="Escape from Darkness" name="escapefromdarkness" />
-      <ability icon="sk_captain_fightingwithdrawal_r1.png" label="Fighting Withdrawal" name="fightingwithdrawal" />
-      <ability icon="sk_captain_gravewound_r1.png" label="Grave Wound" name="gravewound" />
-      <ability icon="sk_captain_bleeding_strike_upgraded_r1.png" label="Improved Cutting Attack" name="improvedcuttingattack" />
-      <ability icon="sk_captain_defensivestrike_improved.png" label="Improved Defensive Strike" name="improveddefensivestrike" />
-      <ability icon="sk_captain_gravewound_upgraded_r1.png" label="Improved Grave Wound" name="improvedgravewound" />
-      <ability icon="sk_captain_surestrike_upgraded_r1.png" label="Improved Sure Strike" name="improvedsurestrike" />
-      <ability icon="sk_captain_aoe_damageredirect_self_r1.png" label="In Harm's Way" name="inharmsway" />
-      <ability icon="sk_captain_inspiringattack_r1.png" label="Inspire (Shield-brother)" name="inspireshieldbrother" />
-      <ability icon="sk_captain_kick_r1.png" label="Kick" name="kick" />
-      <ability icon="sk_captain_laststand_r1.png" label="Last Stand" name="laststand" />
-      <ability icon="sk_captain_charge_r1.png" label="Make Haste" name="makehaste" />
-      <ability icon="sk_captain_aoe_moralebuff_r1.png" label="Motivating Speech" name="motivatingspeech" />
-      <ability icon="sk_captain_courage_r1.png" label="Muster Courage" name="mustercourage" />
-      <ability icon="sk_captain_mark_herald_toggle_r1.png" label="Noble Mark" name="noblemark" />
-      <ability icon="sk_captain_double_strike_r1.png" label="Pressing Attack" name="pressingattack" />
-      <ability icon="sk_captain_cryofvictory_r1.png" label="Rallying Cry" name="rallyingcry" />
-      <ability icon="sk_captain_coordinateattacks_r1.png" label="Revealing Mark" name="revealingmark" />
-      <ability icon="sk_captain_aoe_damagecry_r1.png" label="Routing Cry" name="routingcry" />
-      <ability icon="sk_captain_shadowslament.png" label="Shadow's Lament" name="shadowslament" />
-      <ability icon="sk_captain_inspiringattack_toggle_r1.png" label="Shield-brother" name="shieldbrother" />
-      <ability icon="sk_captain_songbrother_toggle_r1.png" label="Song-brother" name="songbrother" />
-      <ability icon="sk_captain_wordsofvictory_r1.png" label="Strength of Will (Shield-brother)" name="strengthofwillshieldbrother" />
-      <ability icon="sk_captain_surestrike_r1.png" label="Sure Strike" name="surestrike" />
-      <ability icon="sk_captain_buffother_magic_toggle_r1.png" label="Tactic: Focus" name="tacticfocus" />
-      <ability icon="sk_captain_buffother_defense_toggle_r1.png" label="Tactic: On Guard" name="tacticonguard" />
-      <ability icon="sk_captain_buffother_crit_toggle_r1.png" label="Tactic: Relentless Attack" name="tacticrelentlessattack" />
-      <ability icon="sk_captain_mark_crittarget_toggle_r1.png" label="Telling Mark" name="tellingmark" />
-      <ability icon="sk_captain_detaunting_strike_r1.png" label="Threatening Shout" name="threateningshout" />
-      <ability icon="sk_captain_costofvictory_r1.png" label="Time of Need" name="timeofneed" />
-      <ability icon="sk_captain_buffoffense_r1.png" label="To Arms (Shield-brother)" name="toarmsshieldbrother" />
-      <ability icon="sk_captain_endthenight_improved.png" label="Valiant Strike" name="valiantstrike" />
-      <ability icon="sk_captain_rout_r1.png" label="War-cry" name="warcry" />
-      <ability icon="sk_captain_inspiringattack_toggle_r2.png" label="Watchful Shield-brother" name="watchfulshieldbrother" />
-      <ability icon="sk_captain_withdraw_r1.png" label="Withdraw" name="withdraw" />
-      <ability icon="sk_captain_morale_hot_r1.png" label="Words of Courage" name="wordsofcourage" />
+      <ability icon="sk_captain_battlecry_r1.png" label="Battle-shout" name="battleshout"/>
+      <ability icon="sk_captain_lightofelendil_r1.png" label="Blade of Elendil" name="bladeofelendil"/>
+      <ability icon="sk_captain_bladebrother_toggle_r1.png" label="Blade-brother" name="bladebrother"/>
+      <ability icon="sk_captain_archer.png" label="Call to Arms: Archer" name="calltoarmsarcher"/>
+      <ability icon="sk_captain_herald_hope_r1.png" label="Call to Arms: Herald of Hope" name="calltoarmsheraldofhope"/>
+      <ability icon="sk_captain_herald_victory_r1.png" label="Call to Arms: Herald of Victory" name="calltoarmsheraldofvictory"/>
+      <ability icon="sk_captain_armsman_r1.png" label="Call to Arms: Herald of War" name="calltoarmsheraldofwar"/>
+      <ability icon="sk_captain_commandrespect.png" label="Command Respect" name="commandrespect"/>
+      <ability icon="sk_captain_rally_r1.png" label="Cry of Vengeance" name="cryofvengeance"/>
+      <ability icon="sk_captain_bleeding_strike_r1.png" label="Cutting Attack" name="cuttingattack"/>
+      <ability icon="sk_captain_readying_strike_r1.png" label="Defensive Strike" name="defensivestrike"/>
+      <ability icon="sk_captain_critmultiplying_strike_r1.png" label="Devastating Blow" name="devastatingblow"/>
+      <ability icon="sk_captain_escapefromdarkness_r1.png" label="Escape from Darkness" name="escapefromdarkness"/>
+      <ability icon="sk_captain_fightingwithdrawal_r1.png" label="Fighting Withdrawal" name="fightingwithdrawal"/>
+      <ability icon="sk_captain_gravewound_r1.png" label="Grave Wound" name="gravewound"/>
+      <ability icon="sk_captain_bleeding_strike_upgraded_r1.png" label="Improved Cutting Attack" name="improvedcuttingattack"/>
+      <ability icon="sk_captain_defensivestrike_improved.png" label="Improved Defensive Strike" name="improveddefensivestrike"/>
+      <ability icon="sk_captain_gravewound_upgraded_r1.png" label="Improved Grave Wound" name="improvedgravewound"/>
+      <ability icon="sk_captain_surestrike_upgraded_r1.png" label="Improved Sure Strike" name="improvedsurestrike"/>
+      <ability icon="sk_captain_aoe_damageredirect_self_r1.png" label="In Harm's Way" name="inharmsway"/>
+      <ability icon="sk_captain_inspiringattack_r1.png" label="Inspire (Shield-brother)" name="inspireshieldbrother"/>
+      <ability icon="sk_captain_kick_r1.png" label="Kick" name="kick"/>
+      <ability icon="sk_captain_laststand_r1.png" label="Last Stand" name="laststand"/>
+      <ability icon="sk_captain_charge_r1.png" label="Make Haste" name="makehaste"/>
+      <ability icon="sk_captain_aoe_moralebuff_r1.png" label="Motivating Speech" name="motivatingspeech"/>
+      <ability icon="sk_captain_courage_r1.png" label="Muster Courage" name="mustercourage"/>
+      <ability icon="sk_captain_mark_herald_toggle_r1.png" label="Noble Mark" name="noblemark"/>
+      <ability icon="sk_captain_double_strike_r1.png" label="Pressing Attack" name="pressingattack"/>
+      <ability icon="sk_captain_cryofvictory_r1.png" label="Rallying Cry" name="rallyingcry"/>
+      <ability icon="sk_captain_coordinateattacks_r1.png" label="Revealing Mark" name="revealingmark"/>
+      <ability icon="sk_captain_aoe_damagecry_r1.png" label="Routing Cry" name="routingcry"/>
+      <ability icon="sk_captain_shadowslament.png" label="Shadow's Lament" name="shadowslament"/>
+      <ability icon="sk_captain_inspiringattack_toggle_r1.png" label="Shield-brother" name="shieldbrother"/>
+      <ability icon="sk_captain_songbrother_toggle_r1.png" label="Song-brother" name="songbrother"/>
+      <ability icon="sk_captain_wordsofvictory_r1.png" label="Strength of Will (Shield-brother)" name="strengthofwillshieldbrother"/>
+      <ability icon="sk_captain_surestrike_r1.png" label="Sure Strike" name="surestrike"/>
+      <ability icon="sk_captain_buffother_magic_toggle_r1.png" label="Tactic: Focus" name="tacticfocus"/>
+      <ability icon="sk_captain_buffother_defense_toggle_r1.png" label="Tactic: On Guard" name="tacticonguard"/>
+      <ability icon="sk_captain_buffother_crit_toggle_r1.png" label="Tactic: Relentless Attack" name="tacticrelentlessattack"/>
+      <ability icon="sk_captain_mark_crittarget_toggle_r1.png" label="Telling Mark" name="tellingmark"/>
+      <ability icon="sk_captain_detaunting_strike_r1.png" label="Threatening Shout" name="threateningshout"/>
+      <ability icon="sk_captain_costofvictory_r1.png" label="Time of Need" name="timeofneed"/>
+      <ability icon="sk_captain_buffoffense_r1.png" label="To Arms (Shield-brother)" name="toarmsshieldbrother"/>
+      <ability icon="sk_captain_endthenight_improved.png" label="Valiant Strike" name="valiantstrike"/>
+      <ability icon="sk_captain_rout_r1.png" label="War-cry" name="warcry"/>
+      <ability icon="sk_captain_inspiringattack_toggle_r2.png" label="Watchful Shield-brother" name="watchfulshieldbrother"/>
+      <ability icon="sk_captain_withdraw_r1.png" label="Withdraw" name="withdraw"/>
+      <ability icon="sk_captain_morale_hot_r1.png" label="Words of Courage" name="wordsofcourage"/>
     </category>
     <category icon="champion.png" label="Champion" name="champion">
-      <ability icon="sk_champion_adamant.png" label="Adamant" name="adamant" />
-      <ability icon="sk_champion_slowburn_r1.png" label="Ardour" name="ardour" />
-      <ability icon="sk_champion_fighting_dirty_r1.png" label="Battle Acuity" name="battleacuity" />
-      <ability icon="sk_champion_battlethirst_r1.png" label="Battle-frenzy" name="battlefrenzy" />
-      <ability icon="sk_champion_bladestorm_r1.png" label="Blade-storm" name="bladestorm" />
-      <ability icon="sk_champion_bladewall_r1.png" label="Blade-wall" name="bladewall" />
-      <ability icon="sk_champion_bloodrage.png" label="Blood Rage" name="bloodrage" />
-      <ability icon="sk_champion_callforadoration.png" label="Boast" name="boast" />
-      <ability icon="sk_champion_bracingattack_r1.png" label="Bracing Attack" name="bracingattack" />
-      <ability icon="sk_champion_brutalstrikes_r1.png" label="Brutal Strikes" name="brutalstrikes" />
-      <ability icon="sk_champion_championschallenge_r1.png" label="Champion's Challenge" name="championschallenge" />
-      <ability icon="sk_champion_cleave_r1.png" label="Cleave" name="cleave" />
-      <ability icon="sk_champion_clobber_r1.png" label="Clobber" name="clobber" />
-      <ability icon="sk_champion_direneed_r1.png" label="Dire Need" name="direneed" />
-      <ability icon="sk_champion_ebbingire_r1.png" label="Ebbing Ire" name="ebbingire" />
-      <ability icon="sk_champion_battleacuity_enhanced.png" label="Enhanced Battle Acuity" name="enhancedbattleacuity" />
-      <ability icon="sk_champion_reciprocation_r1.png" label="Exchange of Blows" name="exchangeofblows" />
-      <ability icon="sk_champion_fearnothing.png" label="Fear Nothing!" name="fearnothing" />
-      <ability icon="sk_champion_feralstrikes_r1.png" label="Feral Strikes" name="feralstrikes" />
-      <ability icon="sk_champion_fervour_r1.png" label="Fervour" name="fervour" />
-      <ability icon="sk_champion_flurry_r1.png" label="Flurry" name="flurry" />
-      <ability icon="sk_champion_glory_r1.png" label="Glory" name="glory" />
-      <ability icon="sk_champion_greatcleave.png" label="Great Cleave" name="greatcleave" />
-      <ability icon="sk_champion_hamstring_r1.png" label="Hamstring" name="hamstring" />
-      <ability icon="sk_champion_hedge_r1.png" label="Hedge" name="hedge" />
-      <ability icon="sk_champion_heroics_r1.png" label="Heroics" name="heroics" />
-      <ability icon="sk_champion_hornofgondor_r1.png" label="Horn of Gondor" name="hornofgondor" />
-      <ability icon="sk_champion_direneed_improved.png" label="Improved Dire Need" name="improveddireneed" />
-      <ability icon="sk_champion_hedge_improved.png" label="Improved Hedge" name="improvedhedge" />
-      <ability icon="sk_common_shoot.png" label="Let Fly" name="letfly" />
-      <ability icon="sk_champion_killingblow_r1.png" label="Merciful Strike" name="mercifulstrike" />
-      <ability icon="sk_champion_redhaze_r1.png" label="Red Haze" name="redhaze" />
-      <ability icon="sk_champion_relentlessstrike_r1.png" label="Relentless Strike" name="relentlessstrike" />
-      <ability icon="sk_champion_remorselessstrike_r1.png" label="Remorseless Strike" name="remorselessstrike" />
-      <ability icon="sk_champion_rend_r1.png" label="Rend" name="rend" />
-      <ability icon="sk_champion_savagestrikes_r1.png" label="Savage Strikes" name="savagestrikes" />
-      <ability icon="sk_champion_secondwind_r1.png" label="Second Wind" name="secondwind" />
-      <ability icon="sk_champion_blockingblades_r1.png" label="Seeking Blade" name="seekingblade" />
-      <ability icon="sk_champion_sprint_r1.png" label="Sprint" name="sprint" />
-      <ability icon="sk_champion_swiftstrike_r1.png" label="Swift Strike" name="swiftstrike" />
-      <ability icon="sk_champion_heroics_r2.png" label="True Heroics" name="trueheroics" />
-      <ability icon="sk_champion_wildattack_r1.png" label="Wild Attack" name="wildattack" />
+      <ability icon="sk_champion_adamant.png" label="Adamant" name="adamant"/>
+      <ability icon="sk_champion_slowburn_r1.png" label="Ardour" name="ardour"/>
+      <ability icon="sk_champion_fighting_dirty_r1.png" label="Battle Acuity" name="battleacuity"/>
+      <ability icon="sk_champion_battlethirst_r1.png" label="Battle-frenzy" name="battlefrenzy"/>
+      <ability icon="sk_champion_bladestorm_r1.png" label="Blade-storm" name="bladestorm"/>
+      <ability icon="sk_champion_bladewall_r1.png" label="Blade-wall" name="bladewall"/>
+      <ability icon="sk_champion_bloodrage.png" label="Blood Rage" name="bloodrage"/>
+      <ability icon="sk_champion_callforadoration.png" label="Boast" name="boast"/>
+      <ability icon="sk_champion_bracingattack_r1.png" label="Bracing Attack" name="bracingattack"/>
+      <ability icon="sk_champion_brutalstrikes_r1.png" label="Brutal Strikes" name="brutalstrikes"/>
+      <ability icon="sk_champion_championschallenge_r1.png" label="Champion's Challenge" name="championschallenge"/>
+      <ability icon="sk_champion_cleave_r1.png" label="Cleave" name="cleave"/>
+      <ability icon="sk_champion_clobber_r1.png" label="Clobber" name="clobber"/>
+      <ability icon="sk_champion_direneed_r1.png" label="Dire Need" name="direneed"/>
+      <ability icon="sk_champion_ebbingire_r1.png" label="Ebbing Ire" name="ebbingire"/>
+      <ability icon="sk_champion_battleacuity_enhanced.png" label="Enhanced Battle Acuity" name="enhancedbattleacuity"/>
+      <ability icon="sk_champion_reciprocation_r1.png" label="Exchange of Blows" name="exchangeofblows"/>
+      <ability icon="sk_champion_fearnothing.png" label="Fear Nothing!" name="fearnothing"/>
+      <ability icon="sk_champion_feralstrikes_r1.png" label="Feral Strikes" name="feralstrikes"/>
+      <ability icon="sk_champion_fervour_r1.png" label="Fervour" name="fervour"/>
+      <ability icon="sk_champion_flurry_r1.png" label="Flurry" name="flurry"/>
+      <ability icon="sk_champion_glory_r1.png" label="Glory" name="glory"/>
+      <ability icon="sk_champion_greatcleave.png" label="Great Cleave" name="greatcleave"/>
+      <ability icon="sk_champion_hamstring_r1.png" label="Hamstring" name="hamstring"/>
+      <ability icon="sk_champion_hedge_r1.png" label="Hedge" name="hedge"/>
+      <ability icon="sk_champion_heroics_r1.png" label="Heroics" name="heroics"/>
+      <ability icon="sk_champion_hornofgondor_r1.png" label="Horn of Gondor" name="hornofgondor"/>
+      <ability icon="sk_champion_direneed_improved.png" label="Improved Dire Need" name="improveddireneed"/>
+      <ability icon="sk_champion_hedge_improved.png" label="Improved Hedge" name="improvedhedge"/>
+      <ability icon="sk_common_shoot.png" label="Let Fly" name="letfly"/>
+      <ability icon="sk_champion_killingblow_r1.png" label="Merciful Strike" name="mercifulstrike"/>
+      <ability icon="sk_champion_redhaze_r1.png" label="Red Haze" name="redhaze"/>
+      <ability icon="sk_champion_relentlessstrike_r1.png" label="Relentless Strike" name="relentlessstrike"/>
+      <ability icon="sk_champion_remorselessstrike_r1.png" label="Remorseless Strike" name="remorselessstrike"/>
+      <ability icon="sk_champion_rend_r1.png" label="Rend" name="rend"/>
+      <ability icon="sk_champion_savagestrikes_r1.png" label="Savage Strikes" name="savagestrikes"/>
+      <ability icon="sk_champion_secondwind_r1.png" label="Second Wind" name="secondwind"/>
+      <ability icon="sk_champion_blockingblades_r1.png" label="Seeking Blade" name="seekingblade"/>
+      <ability icon="sk_champion_sprint_r1.png" label="Sprint" name="sprint"/>
+      <ability icon="sk_champion_swiftstrike_r1.png" label="Swift Strike" name="swiftstrike"/>
+      <ability icon="sk_champion_heroics_r2.png" label="True Heroics" name="trueheroics"/>
+      <ability icon="sk_champion_wildattack_r1.png" label="Wild Attack" name="wildattack"/>
     </category>
     <category icon="guardian.png" label="Guardian" name="guardian">
-      <ability icon="sk_guardian_bash_r1.png" label="Bash" name="bash" />
-      <ability icon="sk_guardian_brutalassault_r1.png" label="Brutal Assault" name="brutalassault" />
-      <ability icon="sk_guardian_charge_improved_r1.png" label="Brutal Charge" name="brutalcharge" />
-      <ability icon="sk_guardian_catchbreath_r1.png" label="Catch a Breath" name="catchabreath" />
-      <ability icon="sk_guardian_challenge_r1.png" label="Challenge" name="challenge" />
-      <ability icon="sk_guardian_charge_r1.png" label="Charge" name="charge" />
-      <ability icon="sk_guardian_deepbreath_r1.png" label="Deep Breath" name="deepbreath" />
-      <ability icon="sk_guardian_engage_r1.png" label="Engage" name="engage" />
-      <ability icon="sk_guardian_forceopening_r1.png" label="Force Opening" name="forceopening" />
-      <ability icon="sk_guardian_fraytheedge_r1.png" label="Fray the Edge" name="fraytheedge" />
-      <ability icon="sk_guardian_guardiansblock_stance_r1.png" label="Guardian's Defence" name="guardiansdefence" />
-      <ability icon="sk_guardian_guardiansparry_stance_r1.png" label="Guardian's Parry" name="guardiansparry" />
-      <ability icon="sk_guardian_guardianspledge_r1.png" label="Guardian's Pledge" name="guardianspledge" />
-      <ability icon="sk_guardian_guardians_promise_r1.png" label="Guardian's Promise" name="guardianspromise" />
-      <ability icon="sk_guardian_guardiansward_r1.png" label="Guardian's Ward" name="guardiansward" />
-      <ability icon="sk_guardian_guardiansward_r2.png" label="Guardian's Ward Tactics" name="guardianswardtactics" />
-      <ability icon="sk_guardian_ignorethepain_r1.png" label="Ignore the Pain" name="ignorethepain" />
-      <ability icon="sk_guardian_challenge_r2.png" label="Improved Challenge" name="improvedchallenge" />
-      <ability icon="sk_guardian_guardiansblock_stance_r2.png" label="Improved Guardian's Defence" name="improvedguardiansdefence" />
-      <ability icon="sk_guardian_overwhelm_r2.png" label="Improved Overwhelm" name="improvedoverwhelm" />
-      <ability icon="sk_guardian_shieldpunch_improved_r1.png" label="Improved Shield-blow" name="improvedshieldblow" />
-      <ability icon="sk_guardian_sting_improved_r1.png" label="Improved Sting" name="improvedsting" />
-      <ability icon="sk_guardian_turnthetables_r2.png" label="Improved Turn the Tables" name="improvedturnthetables" />
-      <ability icon="sk_guardian_whirlingevasion_r2.png" label="Improved Whirling Retaliation" name="improvedwhirlingretaliation" />
-      <ability icon="sk_common_shoot.png" label="Let Fly" name="letfly" />
-      <ability icon="sk_guardian_litanyofdefiance_r1.png" label="Litany of Defiance" name="litanyofdefiance" />
-      <ability icon="sk_guardian_overpower_stance_r1.png" label="Overpower" name="overpower" />
-      <ability icon="sk_guardian_overwhelm_r1.png" label="Overwhelm" name="overwhelm" />
-      <ability icon="sk_guardian_protection_r1.png" label="Protection" name="protection" />
-      <ability icon="sk_guardian_retaliate_r1.png" label="Retaliation" name="retaliation" />
-      <ability icon="sk_guardian_saltthewound_r1.png" label="Salt the Wound" name="saltthewound" />
-      <ability icon="sk_guardian_shieldwall_r1.png" label="Shield Wall" name="shieldwall" />
-      <ability icon="sk_guardian_shieldpunch_r1.png" label="Shield-blow" name="shieldblow" />
-      <ability icon="sk_guardian_shieldswipe_r1.png" label="Shield-swipe" name="shieldswipe" />
-      <ability icon="sk_guardian_shieldtaunt_r1.png" label="Shield-taunt" name="shieldtaunt" />
-      <ability icon="sk_guardian_stagger_r1.png" label="Stagger" name="stagger" />
-      <ability icon="sk_guardian_stamp_r1.png" label="Stamp" name="stamp" />
-      <ability icon="sk_guardian_sting_r1.png" label="Sting" name="sting" />
-      <ability icon="sk_guardian_summontinker_r1.png" label="Summon Tinker" name="summontinker" />
-      <ability icon="sk_guardian_sweepingcut_r1.png" label="Sweeping Cut" name="sweepingcut" />
-      <ability icon="sk_guardian_powerrestored_r1.png" label="Take to Heart" name="taketoheart" />
-      <ability icon="sk_guardian_thrillofdanger_r1.png" label="Thrill of Danger" name="thrillofdanger" />
-      <ability icon="sk_guardian_shiv_r1.png" label="Thrust" name="thrust" />
-      <ability icon="sk_guardian_turnthetables_r1.png" label="Turn the Tables" name="turnthetables" />
-      <ability icon="sk_guardian_vexingblow_r1.png" label="Vexing Blow" name="vexingblow" />
-      <ability icon="sk_guardian_warriorsheart_r2.png" label="Warrior's Fortitude" name="warriorsfortitude" />
-      <ability icon="sk_guardian_warriorsheart_r1.png" label="Warrior's Heart" name="warriorsheart" />
-      <ability icon="sk_guardian_whirlingevasion_r1.png" label="Whirling Retaliation" name="whirlingretaliation" />
+      <ability icon="sk_guardian_bash_r1.png" label="Bash" name="bash"/>
+      <ability icon="sk_guardian_brutalassault_r1.png" label="Brutal Assault" name="brutalassault"/>
+      <ability icon="sk_guardian_charge_improved_r1.png" label="Brutal Charge" name="brutalcharge"/>
+      <ability icon="sk_guardian_catchbreath_r1.png" label="Catch a Breath" name="catchabreath"/>
+      <ability icon="sk_guardian_challenge_r1.png" label="Challenge" name="challenge"/>
+      <ability icon="sk_guardian_charge_r1.png" label="Charge" name="charge"/>
+      <ability icon="sk_guardian_deepbreath_r1.png" label="Deep Breath" name="deepbreath"/>
+      <ability icon="sk_guardian_engage_r1.png" label="Engage" name="engage"/>
+      <ability icon="sk_guardian_forceopening_r1.png" label="Force Opening" name="forceopening"/>
+      <ability icon="sk_guardian_fraytheedge_r1.png" label="Fray the Edge" name="fraytheedge"/>
+      <ability icon="sk_guardian_guardiansblock_stance_r1.png" label="Guardian's Defence" name="guardiansdefence"/>
+      <ability icon="sk_guardian_guardiansparry_stance_r1.png" label="Guardian's Parry" name="guardiansparry"/>
+      <ability icon="sk_guardian_guardianspledge_r1.png" label="Guardian's Pledge" name="guardianspledge"/>
+      <ability icon="sk_guardian_guardians_promise_r1.png" label="Guardian's Promise" name="guardianspromise"/>
+      <ability icon="sk_guardian_guardiansward_r1.png" label="Guardian's Ward" name="guardiansward"/>
+      <ability icon="sk_guardian_guardiansward_r2.png" label="Guardian's Ward Tactics" name="guardianswardtactics"/>
+      <ability icon="sk_guardian_ignorethepain_r1.png" label="Ignore the Pain" name="ignorethepain"/>
+      <ability icon="sk_guardian_challenge_r2.png" label="Improved Challenge" name="improvedchallenge"/>
+      <ability icon="sk_guardian_guardiansblock_stance_r2.png" label="Improved Guardian's Defence" name="improvedguardiansdefence"/>
+      <ability icon="sk_guardian_overwhelm_r2.png" label="Improved Overwhelm" name="improvedoverwhelm"/>
+      <ability icon="sk_guardian_shieldpunch_improved_r1.png" label="Improved Shield-blow" name="improvedshieldblow"/>
+      <ability icon="sk_guardian_sting_improved_r1.png" label="Improved Sting" name="improvedsting"/>
+      <ability icon="sk_guardian_turnthetables_r2.png" label="Improved Turn the Tables" name="improvedturnthetables"/>
+      <ability icon="sk_guardian_whirlingevasion_r2.png" label="Improved Whirling Retaliation" name="improvedwhirlingretaliation"/>
+      <ability icon="sk_common_shoot.png" label="Let Fly" name="letfly"/>
+      <ability icon="sk_guardian_litanyofdefiance_r1.png" label="Litany of Defiance" name="litanyofdefiance"/>
+      <ability icon="sk_guardian_overpower_stance_r1.png" label="Overpower" name="overpower"/>
+      <ability icon="sk_guardian_overwhelm_r1.png" label="Overwhelm" name="overwhelm"/>
+      <ability icon="sk_guardian_protection_r1.png" label="Protection" name="protection"/>
+      <ability icon="sk_guardian_retaliate_r1.png" label="Retaliation" name="retaliation"/>
+      <ability icon="sk_guardian_saltthewound_r1.png" label="Salt the Wound" name="saltthewound"/>
+      <ability icon="sk_guardian_shieldwall_r1.png" label="Shield Wall" name="shieldwall"/>
+      <ability icon="sk_guardian_shieldpunch_r1.png" label="Shield-blow" name="shieldblow"/>
+      <ability icon="sk_guardian_shieldswipe_r1.png" label="Shield-swipe" name="shieldswipe"/>
+      <ability icon="sk_guardian_shieldtaunt_r1.png" label="Shield-taunt" name="shieldtaunt"/>
+      <ability icon="sk_guardian_stagger_r1.png" label="Stagger" name="stagger"/>
+      <ability icon="sk_guardian_stamp_r1.png" label="Stamp" name="stamp"/>
+      <ability icon="sk_guardian_sting_r1.png" label="Sting" name="sting"/>
+      <ability icon="sk_guardian_summontinker_r1.png" label="Summon Tinker" name="summontinker"/>
+      <ability icon="sk_guardian_sweepingcut_r1.png" label="Sweeping Cut" name="sweepingcut"/>
+      <ability icon="sk_guardian_powerrestored_r1.png" label="Take to Heart" name="taketoheart"/>
+      <ability icon="sk_guardian_thrillofdanger_r1.png" label="Thrill of Danger" name="thrillofdanger"/>
+      <ability icon="sk_guardian_shiv_r1.png" label="Thrust" name="thrust"/>
+      <ability icon="sk_guardian_turnthetables_r1.png" label="Turn the Tables" name="turnthetables"/>
+      <ability icon="sk_guardian_vexingblow_r1.png" label="Vexing Blow" name="vexingblow"/>
+      <ability icon="sk_guardian_warriorsheart_r2.png" label="Warrior's Fortitude" name="warriorsfortitude"/>
+      <ability icon="sk_guardian_warriorsheart_r1.png" label="Warrior's Heart" name="warriorsheart"/>
+      <ability icon="sk_guardian_whirlingevasion_r1.png" label="Whirling Retaliation" name="whirlingretaliation"/>
     </category>
     <category icon="hunter.png" label="Hunter" name="hunter">
-      <ability icon="sk_hunter_agileriposte_r1.png" label="Agile Rejoinder" name="agilerejoinder" />
-      <ability icon="sk_hunter_barbedarrow_r1.png" label="Barbed Arrow" name="barbedarrow" />
-      <ability icon="sk_hunter_lowerprofile_r1.png" label="Beneath Notice" name="beneathnotice" />
-      <ability icon="sk_hunter_blindside_r1.png" label="Blindside" name="blindside" />
-      <ability icon="sk_hunter_bloodarrow_r1.png" label="Blood Arrow" name="bloodarrow" />
-      <ability icon="sk_hunter_brightcampfire_r1.png" label="Bright Campfire" name="brightcampfire" />
-      <ability icon="sk_hunter_burnhot_r1.png" label="Burn Hot" name="burnhot" />
-      <ability icon="sk_hunter_camouflage_r1.png" label="Camouflage" name="camouflage" />
-      <ability icon="sk_hunter_cryofthepredator_r1.png" label="Cry of the Predator" name="cryofthepredator" />
-      <ability icon="sk_hunter_dazingblow_r1.png" label="Dazing Blow" name="dazingblow" />
-      <ability icon="sk_hunter_guidehome_r1.png" label="Desperate Flight" name="desperateflight" />
-      <ability icon="sk_hunter_distractingshot_r1.png" label="Distracting Shot" name="distractingshot" />
-      <ability icon="sk_hunter_findthepath_r1.png" label="Find the Path" name="findthepath" />
-      <ability icon="sk_hunter_focus_fleet_r1.png" label="Fleetness" name="fleetness" />
-      <ability icon="sk_hunter_focus_gather_r1.png" label="Focus" name="focus" />
-      <ability icon="sk_hunter_guide_bree_r1.png" label="Guide to Bree" name="guidetobree" />
-      <ability icon="sk_hunter_guide_esteldin_r1.png" label="Guide to Esteldín" name="guidetoesteldn" />
-      <ability icon="sk_hunter_guide_micheldelving_r1.png" label="Guide to Michel Delving" name="guidetomicheldelving" />
-      <ability icon="sk_hunter_guide_rivendell_r1.png" label="Guide to Rivendell" name="guidetorivendell" />
-      <ability icon="sk_hunter_guide_thorin_r1.png" label="Guide to Thorin's Hall" name="guidetothorinshall" />
-      <ability icon="sk_hunter_heartseeker_r1.png" label="Heart Seeker" name="heartseeker" />
-      <ability icon="sk_hunter_huntersart_r1.png" label="Hunter's Art" name="huntersart" />
-      <ability icon="sk_hunter_lowerprofile_r2.png" label="Improved Beneath Notice" name="improvedbeneathnotice" />
-      <ability icon="sk_hunter_dazingblow_improved_r1.png" label="Improved Dazing Blow" name="improveddazingblow" />
-      <ability icon="sk_hunter_focus_gather_r2.png" label="Improved Focus" name="improvedfocus" />
-      <ability icon="sk_hunter_mercifulshot_improved_r1.png" label="Improved Merciful Shot" name="improvedmercifulshot" />
-      <ability icon="sk_hunter_penetratingshot_r2.png" label="Improved Penetrating Shot" name="improvedpenetratingshot" />
-      <ability icon="sk_hunter_quickshot_r2.png" label="Improved Quick Shot" name="improvedquickshot" />
-      <ability icon="sk_hunter_combo_dualwield_flensingslash_r2.png" label="Improved Scourging Blow" name="improvedscourgingblow" />
-      <ability icon="sk_hunter_strengthoftheearth_improved.png" label="Improved Strength of the Earth" name="improvedstrengthoftheearth" />
-      <ability icon="sk_hunter_rapidfire_improved_r1.png" label="Improved Swift Bow" name="improvedswiftbow" />
-      <ability icon="sk_hunter_burstofconcentration_r1.png" label="Intent Concentration" name="intentconcentration" />
-      <ability icon="sk_hunter_lowcut_r1.png" label="Low Cut" name="lowcut" />
-      <ability icon="sk_hunter_mercifulshot_r1.png" label="Merciful Shot" name="mercifulshot" />
-      <ability icon="sk_hunter_needfulhaste_r1.png" label="Needful Haste" name="needfulhaste" />
-      <ability icon="sk_hunter_track_foes_r1.png" label="Passage of Foes" name="passageoffoes" />
-      <ability icon="sk_hunter_track_nature_r1.png" label="Passage of Nature" name="passageofnature" />
-      <ability icon="sk_hunter_track_shadow_r1.png" label="Passage of Shadow" name="passageofshadow" />
-      <ability icon="sk_hunter_penetratingshot_r1.png" label="Penetrating Shot" name="penetratingshot" />
-      <ability icon="sk_hunter_cleansepoison_r1.png" label="Purge Poison" name="purgepoison" />
-      <ability icon="sk_hunter_quickshot_r1.png" label="Quick Shot" name="quickshot" />
-      <ability icon="sk_hunter_rainofarrows_r1.png" label="Rain of Arrows" name="rainofarrows" />
-      <ability icon="sk_hunter_flensingslash_r1.png" label="Scourging Blow" name="scourgingblow" />
-      <ability icon="sk_hunter_setsnare_r1.png" label="Set Snare" name="setsnare" />
-      <ability icon="sk_hunter_settrap_r1.png" label="Set Trap" name="settrap" />
-      <ability icon="sk_hunter_splitshot_r1.png" label="Split Shot" name="splitshot" />
-      <ability icon="sk_hunter_focus_endurance_r1.png" label="Stance: Endurance" name="stanceendurance" />
-      <ability icon="sk_hunter_focus_precision_r1.png" label="Stance: Precision" name="stanceprecision" />
-      <ability icon="sk_hunter_focus_strength_r1.png" label="Stance: Strength" name="stancestrength" />
-      <ability icon="sk_hunter_rapidfire_r1.png" label="Swift Bow" name="swiftbow" />
-      <ability icon="sk_hunter_swiftstroke_r1.png" label="Swift Stroke" name="swiftstroke" />
+      <ability icon="sk_hunter_agileriposte_r1.png" label="Agile Rejoinder" name="agilerejoinder"/>
+      <ability icon="sk_hunter_barbedarrow_r1.png" label="Barbed Arrow" name="barbedarrow"/>
+      <ability icon="sk_hunter_lowerprofile_r1.png" label="Beneath Notice" name="beneathnotice"/>
+      <ability icon="sk_hunter_blindside_r1.png" label="Blindside" name="blindside"/>
+      <ability icon="sk_hunter_bloodarrow_r1.png" label="Blood Arrow" name="bloodarrow"/>
+      <ability icon="sk_hunter_brightcampfire_r1.png" label="Bright Campfire" name="brightcampfire"/>
+      <ability icon="sk_hunter_burnhot_r1.png" label="Burn Hot" name="burnhot"/>
+      <ability icon="sk_hunter_camouflage_r1.png" label="Camouflage" name="camouflage"/>
+      <ability icon="sk_hunter_cryofthepredator_r1.png" label="Cry of the Predator" name="cryofthepredator"/>
+      <ability icon="sk_hunter_dazingblow_r1.png" label="Dazing Blow" name="dazingblow"/>
+      <ability icon="sk_hunter_guidehome_r1.png" label="Desperate Flight" name="desperateflight"/>
+      <ability icon="sk_hunter_distractingshot_r1.png" label="Distracting Shot" name="distractingshot"/>
+      <ability icon="sk_hunter_findthepath_r1.png" label="Find the Path" name="findthepath"/>
+      <ability icon="sk_hunter_focus_fleet_r1.png" label="Fleetness" name="fleetness"/>
+      <ability icon="sk_hunter_focus_gather_r1.png" label="Focus" name="focus"/>
+      <ability icon="sk_hunter_guide_bree_r1.png" label="Guide to Bree" name="guidetobree"/>
+      <ability icon="sk_hunter_guide_esteldin_r1.png" label="Guide to Esteldín" name="guidetoesteldn"/>
+      <ability icon="sk_hunter_guide_micheldelving_r1.png" label="Guide to Michel Delving" name="guidetomicheldelving"/>
+      <ability icon="sk_hunter_guide_rivendell_r1.png" label="Guide to Rivendell" name="guidetorivendell"/>
+      <ability icon="sk_hunter_guide_thorin_r1.png" label="Guide to Thorin's Hall" name="guidetothorinshall"/>
+      <ability icon="sk_hunter_heartseeker_r1.png" label="Heart Seeker" name="heartseeker"/>
+      <ability icon="sk_hunter_huntersart_r1.png" label="Hunter's Art" name="huntersart"/>
+      <ability icon="sk_hunter_lowerprofile_r2.png" label="Improved Beneath Notice" name="improvedbeneathnotice"/>
+      <ability icon="sk_hunter_dazingblow_improved_r1.png" label="Improved Dazing Blow" name="improveddazingblow"/>
+      <ability icon="sk_hunter_focus_gather_r2.png" label="Improved Focus" name="improvedfocus"/>
+      <ability icon="sk_hunter_mercifulshot_improved_r1.png" label="Improved Merciful Shot" name="improvedmercifulshot"/>
+      <ability icon="sk_hunter_penetratingshot_r2.png" label="Improved Penetrating Shot" name="improvedpenetratingshot"/>
+      <ability icon="sk_hunter_quickshot_r2.png" label="Improved Quick Shot" name="improvedquickshot"/>
+      <ability icon="sk_hunter_combo_dualwield_flensingslash_r2.png" label="Improved Scourging Blow" name="improvedscourgingblow"/>
+      <ability icon="sk_hunter_strengthoftheearth_improved.png" label="Improved Strength of the Earth" name="improvedstrengthoftheearth"/>
+      <ability icon="sk_hunter_rapidfire_improved_r1.png" label="Improved Swift Bow" name="improvedswiftbow"/>
+      <ability icon="sk_hunter_burstofconcentration_r1.png" label="Intent Concentration" name="intentconcentration"/>
+      <ability icon="sk_hunter_lowcut_r1.png" label="Low Cut" name="lowcut"/>
+      <ability icon="sk_hunter_mercifulshot_r1.png" label="Merciful Shot" name="mercifulshot"/>
+      <ability icon="sk_hunter_needfulhaste_r1.png" label="Needful Haste" name="needfulhaste"/>
+      <ability icon="sk_hunter_track_foes_r1.png" label="Passage of Foes" name="passageoffoes"/>
+      <ability icon="sk_hunter_track_nature_r1.png" label="Passage of Nature" name="passageofnature"/>
+      <ability icon="sk_hunter_track_shadow_r1.png" label="Passage of Shadow" name="passageofshadow"/>
+      <ability icon="sk_hunter_penetratingshot_r1.png" label="Penetrating Shot" name="penetratingshot"/>
+      <ability icon="sk_hunter_cleansepoison_r1.png" label="Purge Poison" name="purgepoison"/>
+      <ability icon="sk_hunter_quickshot_r1.png" label="Quick Shot" name="quickshot"/>
+      <ability icon="sk_hunter_rainofarrows_r1.png" label="Rain of Arrows" name="rainofarrows"/>
+      <ability icon="sk_hunter_flensingslash_r1.png" label="Scourging Blow" name="scourgingblow"/>
+      <ability icon="sk_hunter_setsnare_r1.png" label="Set Snare" name="setsnare"/>
+      <ability icon="sk_hunter_settrap_r1.png" label="Set Trap" name="settrap"/>
+      <ability icon="sk_hunter_splitshot_r1.png" label="Split Shot" name="splitshot"/>
+      <ability icon="sk_hunter_focus_endurance_r1.png" label="Stance: Endurance" name="stanceendurance"/>
+      <ability icon="sk_hunter_focus_precision_r1.png" label="Stance: Precision" name="stanceprecision"/>
+      <ability icon="sk_hunter_focus_strength_r1.png" label="Stance: Strength" name="stancestrength"/>
+      <ability icon="sk_hunter_rapidfire_r1.png" label="Swift Bow" name="swiftbow"/>
+      <ability icon="sk_hunter_swiftstroke_r1.png" label="Swift Stroke" name="swiftstroke"/>
     </category>
     <category icon="loremaster.png" label="Lore-Master" name="loremaster">
-      <ability icon="sk_loremaster_wardingloredrakes_combo_r1.png" label="Advanced Warding Knowledge" name="advancedwardingknowledge" />
-      <ability icon="sk_loremaster_chargedair_r1.png" label="Air-lore" name="airlore" />
-      <ability icon="sk_loremaster_calltocraft_r1.png" label="Ancient Craft" name="ancientcraft" />
-      <ability icon="sk_loremaster_backfromthebrink_r1.png" label="Back from the Brink" name="backfromthebrink" />
-      <ability icon="sk_loremaster_baneflare_r1.png" label="Bane Flare" name="baneflare" />
-      <ability icon="sk_loremaster_givehope_r1.png" label="Beacon of Hope" name="beaconofhope" />
-      <ability icon="sk_loremaster_blindingflash_r1.png" label="Blinding Flash" name="blindingflash" />
-      <ability icon="sk_loremaster_burningembers_r1.png" label="Burning Embers" name="burningembers" />
-      <ability icon="sk_loremaster_calltoarda_r1.png" label="Call to the Valar" name="calltothevalar" />
-      <ability icon="sk_loremaster_corpsecandle_r1.png" label="Commune with Nature" name="communewithnature" />
-      <ability icon="sk_loremaster_chargedair_r2.png" label="Continual Air-lore" name="continualairlore" />
-      <ability icon="sk_loremaster_crackedearth_r1.png" label="Cracked Earth" name="crackedearth" />
-      <ability icon="sk_loremaster_leechcraft_triage_r1.png" label="Dispel Corruption" name="dispelcorruption" />
-      <ability icon="sk_loremaster_calltometal_r1.png" label="Fire-lore" name="firelore" />
-      <ability icon="sk_loremaster_friendofbears_r1.png" label="Friend of Bears" name="friendofbears" />
-      <ability icon="sk_loremaster_friendofsabertooths_r1.png" label="Friend of Feline Hunters" name="friendoffelinehunters" />
-      <ability icon="sk_loremaster_calltofrost_r1.png" label="Frost-lore" name="frostlore" />
-      <ability icon="sk_loremaster_gustofwind_r1.png" label="Gust of Wind" name="gustofwind" />
-      <ability icon="sk_loremaster_calltoplants_r1.png" label="Herb-lore" name="herblore" />
-      <ability icon="sk_loremaster_burningembers_upgraded_r1.png" label="Improved Burning Embers" name="improvedburningembers" />
-      <ability icon="sk_loremaster_improvedcures_r1.png" label="Improved Knowledge of Cures" name="improvedknowledgeofcures" />
-      <ability icon="sk_loremaster_signofpoweristariflame_improved_r1.png" label="Improved Sign of Battle: Wizard's Fire" name="improvedsignofbattlewizardsfire" />
-      <ability icon="sk_loremaster_sigilofcommand_improved_r1.png" label="Improved Sign of Power: Command" name="improvedsignofpowercommand" />
-      <ability icon="sk_loremaster_sigilofrage_upgraded_r1.png" label="Improved Sign of the Wild: Rage" name="improvedsignofthewildrage" />
-      <ability icon="sk_loremaster_staffsweep_improved_r1.png" label="Improved Staff-sweep" name="improvedstaffsweep" />
-      <ability icon="sk_loremaster_wardinglorecreaturesofnature_combo_r1.png" label="Improved Warding Knowledge" name="improvedwardingknowledge" />
-      <ability icon="sk_loremaster_innerflame_r1.png" label="Inner Flame" name="innerflame" />
-      <ability icon="sk_loremaster_leechcraft_r1.png" label="Knowledge of Cures" name="knowledgeofcures" />
-      <ability icon="sk_loremaster_analyzeskill_r1.png" label="Knowledge of the Lore-master" name="knowledgeoftheloremaster" />
-      <ability icon="sk_loremaster_lightoftherisingdawn_r1.png" label="Light of the Rising Dawn" name="lightoftherisingdawn" />
-      <ability icon="sk_loremaster_lightningstorm_r1.png" label="Lightning-storm" name="lightningstorm" />
-      <ability icon="sk_loremaster_lynxspeech_r1.png" label="Lynx-speech" name="lynxspeech" />
-      <ability icon="sk_loremaster_drawpower_r1.png" label="Power of Knowledge" name="powerofknowledge" />
-      <ability icon="sk_loremaster_ravenlore_r1.png" label="Raven-lore" name="ravenlore" />
-      <ability icon="sk_loremaster_sharepower_r1.png" label="Share the Power" name="sharethepower" />
-      <ability icon="sk_loremaster_signofpoweristariflame_r1.png" label="Sign of Battle: Wizard's Fire" name="signofbattlewizardsfire" />
-      <ability icon="sk_loremaster_sigilofcommand_r1.png" label="Sign of Power: Command" name="signofpowercommand" />
-      <ability icon="sk_loremaster_sigiloftherighteous_r1.png" label="Sign of Power: Righteousness" name="signofpowerrighteousness" />
-      <ability icon="sk_loremaster_sigilofseeallends_r1.png" label="Sign of Power: See All Ends" name="signofpowerseeallends" />
-      <ability icon="sk_loremaster_sigilofvigilance_r1.png" label="Sign of Power: Vigilance" name="signofpowervigilance" />
-      <ability icon="sk_loremaster_sigilofprotection_r1.png" label="Sign of the Wild: Protection" name="signofthewildprotection" />
-      <ability icon="sk_loremaster_sigilofrage_r1.png" label="Sign of the Wild: Rage" name="signofthewildrage" />
-      <ability icon="sk_loremaster_staffstrike_r1.png" label="Staff-strike" name="staffstrike" />
-      <ability icon="sk_loremaster_staffsweep_r1.png" label="Staff-sweep" name="staffsweep" />
-      <ability icon="sk_loremaster_stickygourd_r1.png" label="Sticky Gourd" name="stickygourd" />
-      <ability icon="sk_loremaster_stickytar_r1.png" label="Sticky Tar" name="stickytar" />
-      <ability icon="sk_loremaster_calltostorm_r1.png" label="Storm-lore" name="stormlore" />
-      <ability icon="sk_loremaster_testofwill_r1.png" label="Test of Will" name="testofwill" />
-      <ability icon="sk_loremaster_wardinglorethedead_r1.png" label="Warding Knowledge" name="wardingknowledge" />
-      <ability icon="sk_loremaster_calltoair_r1.png" label="Wind-lore" name="windlore" />
-      <ability icon="sk_loremaster_wisdomofthecouncil_r1.png" label="Wisdom of the Council" name="wisdomofthecouncil" />
+      <ability icon="sk_loremaster_wardingloredrakes_combo_r1.png" label="Advanced Warding Knowledge" name="advancedwardingknowledge"/>
+      <ability icon="sk_loremaster_chargedair_r1.png" label="Air-lore" name="airlore"/>
+      <ability icon="sk_loremaster_calltocraft_r1.png" label="Ancient Craft" name="ancientcraft"/>
+      <ability icon="sk_loremaster_backfromthebrink_r1.png" label="Back from the Brink" name="backfromthebrink"/>
+      <ability icon="sk_loremaster_baneflare_r1.png" label="Bane Flare" name="baneflare"/>
+      <ability icon="sk_loremaster_givehope_r1.png" label="Beacon of Hope" name="beaconofhope"/>
+      <ability icon="sk_loremaster_blindingflash_r1.png" label="Blinding Flash" name="blindingflash"/>
+      <ability icon="sk_loremaster_burningembers_r1.png" label="Burning Embers" name="burningembers"/>
+      <ability icon="sk_loremaster_calltoarda_r1.png" label="Call to the Valar" name="calltothevalar"/>
+      <ability icon="sk_loremaster_corpsecandle_r1.png" label="Commune with Nature" name="communewithnature"/>
+      <ability icon="sk_loremaster_chargedair_r2.png" label="Continual Air-lore" name="continualairlore"/>
+      <ability icon="sk_loremaster_crackedearth_r1.png" label="Cracked Earth" name="crackedearth"/>
+      <ability icon="sk_loremaster_leechcraft_triage_r1.png" label="Dispel Corruption" name="dispelcorruption"/>
+      <ability icon="sk_loremaster_calltometal_r1.png" label="Fire-lore" name="firelore"/>
+      <ability icon="sk_loremaster_friendofbears_r1.png" label="Friend of Bears" name="friendofbears"/>
+      <ability icon="sk_loremaster_friendofsabertooths_r1.png" label="Friend of Feline Hunters" name="friendoffelinehunters"/>
+      <ability icon="sk_loremaster_calltofrost_r1.png" label="Frost-lore" name="frostlore"/>
+      <ability icon="sk_loremaster_gustofwind_r1.png" label="Gust of Wind" name="gustofwind"/>
+      <ability icon="sk_loremaster_calltoplants_r1.png" label="Herb-lore" name="herblore"/>
+      <ability icon="sk_loremaster_burningembers_upgraded_r1.png" label="Improved Burning Embers" name="improvedburningembers"/>
+      <ability icon="sk_loremaster_improvedcures_r1.png" label="Improved Knowledge of Cures" name="improvedknowledgeofcures"/>
+      <ability icon="sk_loremaster_signofpoweristariflame_improved_r1.png" label="Improved Sign of Battle: Wizard's Fire" name="improvedsignofbattlewizardsfire"/>
+      <ability icon="sk_loremaster_sigilofcommand_improved_r1.png" label="Improved Sign of Power: Command" name="improvedsignofpowercommand"/>
+      <ability icon="sk_loremaster_sigilofrage_upgraded_r1.png" label="Improved Sign of the Wild: Rage" name="improvedsignofthewildrage"/>
+      <ability icon="sk_loremaster_staffsweep_improved_r1.png" label="Improved Staff-sweep" name="improvedstaffsweep"/>
+      <ability icon="sk_loremaster_wardinglorecreaturesofnature_combo_r1.png" label="Improved Warding Knowledge" name="improvedwardingknowledge"/>
+      <ability icon="sk_loremaster_innerflame_r1.png" label="Inner Flame" name="innerflame"/>
+      <ability icon="sk_loremaster_leechcraft_r1.png" label="Knowledge of Cures" name="knowledgeofcures"/>
+      <ability icon="sk_loremaster_analyzeskill_r1.png" label="Knowledge of the Lore-master" name="knowledgeoftheloremaster"/>
+      <ability icon="sk_loremaster_lightoftherisingdawn_r1.png" label="Light of the Rising Dawn" name="lightoftherisingdawn"/>
+      <ability icon="sk_loremaster_lightningstorm_r1.png" label="Lightning-storm" name="lightningstorm"/>
+      <ability icon="sk_loremaster_lynxspeech_r1.png" label="Lynx-speech" name="lynxspeech"/>
+      <ability icon="sk_loremaster_drawpower_r1.png" label="Power of Knowledge" name="powerofknowledge"/>
+      <ability icon="sk_loremaster_ravenlore_r1.png" label="Raven-lore" name="ravenlore"/>
+      <ability icon="sk_loremaster_sharepower_r1.png" label="Share the Power" name="sharethepower"/>
+      <ability icon="sk_loremaster_signofpoweristariflame_r1.png" label="Sign of Battle: Wizard's Fire" name="signofbattlewizardsfire"/>
+      <ability icon="sk_loremaster_sigilofcommand_r1.png" label="Sign of Power: Command" name="signofpowercommand"/>
+      <ability icon="sk_loremaster_sigiloftherighteous_r1.png" label="Sign of Power: Righteousness" name="signofpowerrighteousness"/>
+      <ability icon="sk_loremaster_sigilofseeallends_r1.png" label="Sign of Power: See All Ends" name="signofpowerseeallends"/>
+      <ability icon="sk_loremaster_sigilofvigilance_r1.png" label="Sign of Power: Vigilance" name="signofpowervigilance"/>
+      <ability icon="sk_loremaster_sigilofprotection_r1.png" label="Sign of the Wild: Protection" name="signofthewildprotection"/>
+      <ability icon="sk_loremaster_sigilofrage_r1.png" label="Sign of the Wild: Rage" name="signofthewildrage"/>
+      <ability icon="sk_loremaster_staffstrike_r1.png" label="Staff-strike" name="staffstrike"/>
+      <ability icon="sk_loremaster_staffsweep_r1.png" label="Staff-sweep" name="staffsweep"/>
+      <ability icon="sk_loremaster_stickygourd_r1.png" label="Sticky Gourd" name="stickygourd"/>
+      <ability icon="sk_loremaster_stickytar_r1.png" label="Sticky Tar" name="stickytar"/>
+      <ability icon="sk_loremaster_calltostorm_r1.png" label="Storm-lore" name="stormlore"/>
+      <ability icon="sk_loremaster_testofwill_r1.png" label="Test of Will" name="testofwill"/>
+      <ability icon="sk_loremaster_wardinglorethedead_r1.png" label="Warding Knowledge" name="wardingknowledge"/>
+      <ability icon="sk_loremaster_calltoair_r1.png" label="Wind-lore" name="windlore"/>
+      <ability icon="sk_loremaster_wisdomofthecouncil_r1.png" label="Wisdom of the Council" name="wisdomofthecouncil"/>
     </category>
     <category icon="minstrel.png" label="Minstrel" name="minstrel">
-      <ability icon="sk_minstrel_inspiration_major_r1.png" label="Bolster Courage" name="bolstercourage" />
-      <ability icon="sk_minstrel_calltoarda_r1.png" label="Call of Oromë" name="calloforom" />
-      <ability icon="sk_minstrel_calltothesecondage_r1.png" label="Call of the Second Age" name="callofthesecondage" />
-      <ability icon="sk_minstrel_calltofate_r1.png" label="Call to Fate" name="calltofate" />
-      <ability icon="sk_minstrel_calltogreatness_r1.png" label="Call to Greatness" name="calltogreatness" />
-      <ability icon="sk_minstrel_calltothefellowship_r1.png" label="Call to the Fellowship" name="calltothefellowship" />
-      <ability icon="sk_minstrel_chordofsalvation_r1.png" label="Chord of Salvation" name="chordofsalvation" />
-      <ability icon="sk_minstrel_intothechorus_r1.png" label="Cry of the Chorus (Melody)" name="cryofthechorusmelody" />
-      <ability icon="sk_minstrel_anthemofthevalar_r1.png" label="Cry of the Valar" name="cryofthevalar" />
-      <ability icon="sk_minstrel_giftofthehammerhand_r1.png" label="Gift of the Hammerhand" name="giftofthehammerhand" />
-      <ability icon="sk_minstrel_heraldsstrike_r1.png" label="Herald's Strike" name="heraldsstrike" />
-      <ability icon="sk_minstrel_chordofsalvation_improved.png" label="Improved Chord of Salvation" name="improvedchordofsalvation" />
-      <ability icon="sk_minstrel_intothechorus_improved_r1.png" label="Improved Cry of the Chorus (Melody)" name="improvedcryofthechorusmelody" />
-      <ability icon="sk_minstrel_anthemofthevalar_improved.png" label="Improved Cry of the Valar" name="improvedcryofthevalar" />
-      <ability icon="sk_minstrel_enliveninggrace_improved.png" label="Improved Enlivening Grace" name="improvedenliveninggrace" />
-      <ability icon="sk_minstrel_combo_noblecause_heraldsstrike_improved_r1.png" label="Improved Herald's Strike" name="improvedheraldsstrike" />
-      <ability icon="sk_minstrel_drowsiness_improved.png" label="Improved Song of Distraction" name="improvedsongofdistraction" />
-      <ability icon="sk_minstrel_songofrestoration_improved_r1.png" label="Improved Song of Restoration" name="improvedsongofrestoration" />
-      <ability icon="sk_minstrel_cure_fear_secondary_improved.png" label="Improved Story of Courage" name="improvedstoryofcourage" />
-      <ability icon="sk_minstrel_inspirefellows_r1.png" label="Inspire Fellows" name="inspirefellows" />
-      <ability icon="sk_minstrel_nameofelbereth_r1.png" label="Invocation of Elbereth" name="invocationofelbereth" />
-      <ability icon="sk_minstrel_irresistiblemelody_r1.png" label="Irresistible Melody" name="irresistiblemelody" />
-      <ability icon="sk_minstrel_mentor_clarinet_combo_r1.png" label="Mentor : Clarinet" name="mentorclarinet" />
-      <ability icon="sk_minstrel_mentor_cowbell_combo_r1.png" label="Mentor : Cowbell" name="mentorcowbell" />
-      <ability icon="sk_minstrel_mentor_horn_combo_r1.png" label="Mentor : Horn" name="mentorhorn" />
-      <ability icon="sk_minstrel_serenadeofresonance_r1.png" label="Minor Ballad" name="minorballad" />
-      <ability icon="sk_minstrel_serenadeofsteel_r1.png" label="Perfect Ballad" name="perfectballad" />
-      <ability icon="sk_minstrel_piercingshout_r1.png" label="Piercing Cry" name="piercingcry" />
-      <ability icon="sk_minstrel_lesserraisethespirit_r1.png" label="Raise the Spirit" name="raisethespirit" />
-      <ability icon="sk_minstrel_mentorstance_r1.png" label="Scribe Stance" name="scribestance" />
-      <ability icon="sk_minstrel_solloquyofspirit_r1.png" label="Soliloquy of Spirit" name="soliloquyofspirit" />
-      <ability icon="sk_minstrel_songofaid_r1.png" label="Song of Aid" name="songofaid" />
-      <ability icon="sk_minstrel_drowsiness_r1.png" label="Song of Distraction" name="songofdistraction" />
-      <ability icon="sk_minstrel_songofrestoration_r1.png" label="Song of Restoration" name="songofrestoration" />
-      <ability icon="sk_minstrel_soothingsong_r1.png" label="Song of Soothing" name="songofsoothing" />
-      <ability icon="sk_minstrel_songofthedead_r1.png" label="Song of the Dead" name="songofthedead" />
-      <ability icon="sk_minstrel_hymnofthehammerhand_r2.png" label="Song of the Hammerhand" name="songofthehammerhand" />
-      <ability icon="sk_minstrel_stillasdeath_r1.png" label="Still As Death" name="stillasdeath" />
-      <ability icon="sk_common_cure_fear_secondary.png" label="Story of Courage" name="storyofcourage" />
-      <ability icon="sk_minstrel_hymnofthehammerhand_r1.png" label="Story of the Hammerhand" name="storyofthehammerhand" />
-      <ability icon="sk_minstrel_taleofbattle_r1.png" label="Tale of Battle" name="taleofbattle" />
-      <ability icon="sk_minstrel_taleoffroststouch_r1.png" label="Tale of Frost and Flame" name="taleoffrostandflame" />
-      <ability icon="sk_minstrel_taleofheroism_r1.png" label="Tale of Heroism" name="taleofheroism" />
-      <ability icon="sk_minstrel_taleofwarding_r1.png" label="Tale of Warding" name="taleofwarding" />
-      <ability icon="sk_minstrel_triumphantspirit_r1.png" label="Triumphant Spirit" name="triumphantspirit" />
+      <ability icon="sk_minstrel_inspiration_major_r1.png" label="Bolster Courage" name="bolstercourage"/>
+      <ability icon="sk_minstrel_calltoarda_r1.png" label="Call of Oromë" name="calloforom"/>
+      <ability icon="sk_minstrel_calltothesecondage_r1.png" label="Call of the Second Age" name="callofthesecondage"/>
+      <ability icon="sk_minstrel_calltofate_r1.png" label="Call to Fate" name="calltofate"/>
+      <ability icon="sk_minstrel_calltogreatness_r1.png" label="Call to Greatness" name="calltogreatness"/>
+      <ability icon="sk_minstrel_calltothefellowship_r1.png" label="Call to the Fellowship" name="calltothefellowship"/>
+      <ability icon="sk_minstrel_chordofsalvation_r1.png" label="Chord of Salvation" name="chordofsalvation"/>
+      <ability icon="sk_minstrel_intothechorus_r1.png" label="Cry of the Chorus (Melody)" name="cryofthechorusmelody"/>
+      <ability icon="sk_minstrel_anthemofthevalar_r1.png" label="Cry of the Valar" name="cryofthevalar"/>
+      <ability icon="sk_minstrel_giftofthehammerhand_r1.png" label="Gift of the Hammerhand" name="giftofthehammerhand"/>
+      <ability icon="sk_minstrel_heraldsstrike_r1.png" label="Herald's Strike" name="heraldsstrike"/>
+      <ability icon="sk_minstrel_chordofsalvation_improved.png" label="Improved Chord of Salvation" name="improvedchordofsalvation"/>
+      <ability icon="sk_minstrel_intothechorus_improved_r1.png" label="Improved Cry of the Chorus (Melody)" name="improvedcryofthechorusmelody"/>
+      <ability icon="sk_minstrel_anthemofthevalar_improved.png" label="Improved Cry of the Valar" name="improvedcryofthevalar"/>
+      <ability icon="sk_minstrel_enliveninggrace_improved.png" label="Improved Enlivening Grace" name="improvedenliveninggrace"/>
+      <ability icon="sk_minstrel_combo_noblecause_heraldsstrike_improved_r1.png" label="Improved Herald's Strike" name="improvedheraldsstrike"/>
+      <ability icon="sk_minstrel_drowsiness_improved.png" label="Improved Song of Distraction" name="improvedsongofdistraction"/>
+      <ability icon="sk_minstrel_songofrestoration_improved_r1.png" label="Improved Song of Restoration" name="improvedsongofrestoration"/>
+      <ability icon="sk_minstrel_cure_fear_secondary_improved.png" label="Improved Story of Courage" name="improvedstoryofcourage"/>
+      <ability icon="sk_minstrel_inspirefellows_r1.png" label="Inspire Fellows" name="inspirefellows"/>
+      <ability icon="sk_minstrel_nameofelbereth_r1.png" label="Invocation of Elbereth" name="invocationofelbereth"/>
+      <ability icon="sk_minstrel_irresistiblemelody_r1.png" label="Irresistible Melody" name="irresistiblemelody"/>
+      <ability icon="sk_minstrel_mentor_clarinet_combo_r1.png" label="Mentor : Clarinet" name="mentorclarinet"/>
+      <ability icon="sk_minstrel_mentor_cowbell_combo_r1.png" label="Mentor : Cowbell" name="mentorcowbell"/>
+      <ability icon="sk_minstrel_mentor_horn_combo_r1.png" label="Mentor : Horn" name="mentorhorn"/>
+      <ability icon="sk_minstrel_serenadeofresonance_r1.png" label="Minor Ballad" name="minorballad"/>
+      <ability icon="sk_minstrel_serenadeofsteel_r1.png" label="Perfect Ballad" name="perfectballad"/>
+      <ability icon="sk_minstrel_piercingshout_r1.png" label="Piercing Cry" name="piercingcry"/>
+      <ability icon="sk_minstrel_lesserraisethespirit_r1.png" label="Raise the Spirit" name="raisethespirit"/>
+      <ability icon="sk_minstrel_mentorstance_r1.png" label="Scribe Stance" name="scribestance"/>
+      <ability icon="sk_minstrel_solloquyofspirit_r1.png" label="Soliloquy of Spirit" name="soliloquyofspirit"/>
+      <ability icon="sk_minstrel_songofaid_r1.png" label="Song of Aid" name="songofaid"/>
+      <ability icon="sk_minstrel_drowsiness_r1.png" label="Song of Distraction" name="songofdistraction"/>
+      <ability icon="sk_minstrel_songofrestoration_r1.png" label="Song of Restoration" name="songofrestoration"/>
+      <ability icon="sk_minstrel_soothingsong_r1.png" label="Song of Soothing" name="songofsoothing"/>
+      <ability icon="sk_minstrel_songofthedead_r1.png" label="Song of the Dead" name="songofthedead"/>
+      <ability icon="sk_minstrel_hymnofthehammerhand_r2.png" label="Song of the Hammerhand" name="songofthehammerhand"/>
+      <ability icon="sk_minstrel_stillasdeath_r1.png" label="Still As Death" name="stillasdeath"/>
+      <ability icon="sk_common_cure_fear_secondary.png" label="Story of Courage" name="storyofcourage"/>
+      <ability icon="sk_minstrel_hymnofthehammerhand_r1.png" label="Story of the Hammerhand" name="storyofthehammerhand"/>
+      <ability icon="sk_minstrel_taleofbattle_r1.png" label="Tale of Battle" name="taleofbattle"/>
+      <ability icon="sk_minstrel_taleoffroststouch_r1.png" label="Tale of Frost and Flame" name="taleoffrostandflame"/>
+      <ability icon="sk_minstrel_taleofheroism_r1.png" label="Tale of Heroism" name="taleofheroism"/>
+      <ability icon="sk_minstrel_taleofwarding_r1.png" label="Tale of Warding" name="taleofwarding"/>
+      <ability icon="sk_minstrel_triumphantspirit_r1.png" label="Triumphant Spirit" name="triumphantspirit"/>
     </category>
     <category icon="runekeeper.png" label="Rune-Keeper" name="runekeeper">
-      <ability icon="sk_runekeeper_balance_elementalarmour_lightning.png" label="Armour of Storm" name="armourofstorm" />
-      <ability icon="sk_runekeeper_balance_aggrogenbuff_instant.png" label="Calming Verse" name="calmingverse" />
-      <ability icon="sk_runekeeper_lightning_nukeshaken.png" label="Ceaseless Argument" name="ceaselessargument" />
-      <ability icon="sk_runekeeper_frost_nukeslow.png" label="Chilling Rhetoric" name="chillingrhetoric" />
-      <ability icon="sk_runekeeper_fire_detauntdot.png" label="Distracting Flame" name="distractingflame" />
-      <ability icon="sk_runekeeper_balance_slowdetaunt.png" label="Distracting Winds" name="distractingwinds" />
-      <ability icon="sk_runekeeper_balance_avoiddeath.png" label="Do Not Fall This Day" name="donotfallthisday" />
-      <ability icon="sk_runekeeper_balance_resistelement_lightning.png" label="Do Not Fall to Storm" name="donotfalltostorm" />
-      <ability icon="sk_runekeeper_lightning_ultimate_traited.png" label="Epic Conclusion" name="epicconclusion" />
-      <ability icon="sk_runekeeper_heal_bigheal.png" label="Epic for the Ages" name="epicfortheages" />
-      <ability icon="sk_runekeeper_heal_aoecashout.png" label="Essay of Exaltation" name="essayofexaltation" />
-      <ability icon="sk_runekeeper_fire_maxtiereddot.png" label="Essay of Fire" name="essayoffire" />
-      <ability icon="sk_runekeeper_fire_synergydot.png" label="Essence of Flame" name="essenceofflame" />
-      <ability icon="sk_runekeeper_lightning_nukecritical.png" label="Essence of Storm" name="essenceofstorm" />
-      <ability icon="sk_runekeeper_frost_nukefrigid.png" label="Essence of Winter" name="essenceofwinter" />
-      <ability icon="sk_runekeeper_balance_falltoelement_lightning.png" label="Fall to Storm" name="falltostorm" />
-      <ability icon="sk_runekeeper_fire_nukedot.png" label="Fiery Ridicule" name="fieryridicule" />
-      <ability icon="sk_runekeeper_balance_rangedinterrupt.png" label="Final Word" name="finalword" />
-      <ability icon="sk_runekeeper_frost_aoehotspot.png" label="Flurry of Words" name="flurryofwords" />
-      <ability icon="sk_runekeeper_frost_ultimate.png" label="Frozen Epilogue" name="frozenepilogue" />
-      <ability icon="sk_runekeeper_heal_incomminghealing.png" label="Glorious Foreshadowing" name="gloriousforeshadowing" />
-      <ability icon="sk_runekeeper_balance_avoiddeath_improved.png" label="Improved Do Not Fall This Day" name="improveddonotfallthisday" />
-      <ability icon="sk_runekeeper_fire_maxtiereddot_improved.png" label="Improved Essay of Fire" name="improvedessayoffire" />
-      <ability icon="sk_runekeeper_balance_rangedinterrupt_improved.png" label="Improved Final Word" name="improvedfinalword" />
-      <ability icon="sk_runekeeper_heal_damageshare_improved.png" label="Improved Our Fates Entwined" name="improvedourfatesentwined" />
-      <ability icon="sk_runekeeper_heal_smallhot_improved.png" label="Improved Prelude to Hope" name="improvedpreludetohope" />
-      <ability icon="sk_runekeeper_heal_aoechannel_improved.png" label="Improved Rousing Words" name="improvedrousingwords" />
-      <ability icon="sk_runekeeper_fire_aoe_improved.png" label="Improved Scathing Mockery" name="improvedscathingmockery" />
-      <ability icon="sk_runekeeper_lightning_powernuke_improved.png" label="Improved Sustaining Bolt" name="improvedsustainingbolt" />
-      <ability icon="sk_runekeeper_balance_elementalweapon_lightning_64.png" label="Improved Weapon of Storm" name="improvedweaponofstorm" />
-      <ability icon="sk_runekeeper_balance_tiermaster_combo.png" label="Master of Writs" name="masterofwrits" />
-      <ability icon="sk_runekeeper_heal_healhot.png" label="Mending Verse" name="mendingverse" />
-      <ability icon="sk_runekeeper_balance_oocres.png" label="Nothing Truly Ends" name="nothingtrulyends" />
-      <ability icon="sk_runekeeper_heal_damageshare.png" label="Our Fates Entwined" name="ourfatesentwined" />
-      <ability icon="sk_runekeeper_heal_smallhot.png" label="Prelude to Hope" name="preludetohope" />
-      <ability icon="sk_runekeeper_heal_aoechannel.png" label="Rousing Words" name="rousingwords" />
-      <ability icon="sk_runekeeper_heal_aoepet.png" label="Rune of Restoration" name="runeofrestoration" />
-      <ability icon="sk_runekeeper_fire_aoe.png" label="Scathing Mockery" name="scathingmockery" />
-      <ability icon="sk_runekeeper_lightning_nukethunderstruck.png" label="Scribe's Spark" name="scribesspark" />
-      <ability icon="sk_runekeeper_balance_powerrestore.png" label="Self-motivation" name="selfmotivation" />
-      <ability icon="sk_runekeeper_balance_daze.png" label="Shocking Touch" name="shockingtouch" />
-      <ability icon="sk_runekeeper_lightning_synergystun.png" label="Shocking Words" name="shockingwords" />
-      <ability icon="sk_runekeeper_fire_ultimate.png" label="Smouldering Wrath" name="smoulderingwrath" />
-      <ability icon="sk_runekeeper_lightning_powernuke_combo.png" label="Sustaining Bolt" name="sustainingbolt" />
-      <ability icon="sk_runekeeper_balance_avoidwound.png" label="The Blade will not Wound" name="thebladewillnotwound" />
-      <ability icon="sk_runekeeper_balance_avoidpoision.png" label="The Fang will not Poison" name="thefangwillnotpoison" />
-      <ability icon="sk_runekeeper_lightning_aoedaze.png" label="Vivid Imagery" name="vividimagery" />
-      <ability icon="sk_runekeeper_balance_elementalweapon_lightning.png" label="Weapon of Storm" name="weaponofstorm" />
-      <ability icon="sk_runekeeper_heal_incomminghealing_upgrade.png" label="Wondrous Foreshadowing" name="wondrousforeshadowing" />
-      <ability icon="sk_runekeeper_heal_cashout.png" label="Word of Exaltation" name="wordofexaltation" />
-      <ability icon="sk_runekeeper_frost_nukechill.png" label="Writ of Cold" name="writofcold" />
-      <ability icon="sk_runekeeper_fire_tiereddot.png" label="Writ of Fire" name="writoffire" />
-      <ability icon="sk_runekeeper_heal_hotupgrade.png" label="Writ of Health" name="writofhealth" />
+      <ability icon="sk_runekeeper_balance_elementalarmour_lightning.png" label="Armour of Storm" name="armourofstorm"/>
+      <ability icon="sk_runekeeper_balance_aggrogenbuff_instant.png" label="Calming Verse" name="calmingverse"/>
+      <ability icon="sk_runekeeper_lightning_nukeshaken.png" label="Ceaseless Argument" name="ceaselessargument"/>
+      <ability icon="sk_runekeeper_frost_nukeslow.png" label="Chilling Rhetoric" name="chillingrhetoric"/>
+      <ability icon="sk_runekeeper_fire_detauntdot.png" label="Distracting Flame" name="distractingflame"/>
+      <ability icon="sk_runekeeper_balance_slowdetaunt.png" label="Distracting Winds" name="distractingwinds"/>
+      <ability icon="sk_runekeeper_balance_avoiddeath.png" label="Do Not Fall This Day" name="donotfallthisday"/>
+      <ability icon="sk_runekeeper_balance_resistelement_lightning.png" label="Do Not Fall to Storm" name="donotfalltostorm"/>
+      <ability icon="sk_runekeeper_lightning_ultimate_traited.png" label="Epic Conclusion" name="epicconclusion"/>
+      <ability icon="sk_runekeeper_heal_bigheal.png" label="Epic for the Ages" name="epicfortheages"/>
+      <ability icon="sk_runekeeper_heal_aoecashout.png" label="Essay of Exaltation" name="essayofexaltation"/>
+      <ability icon="sk_runekeeper_fire_maxtiereddot.png" label="Essay of Fire" name="essayoffire"/>
+      <ability icon="sk_runekeeper_fire_synergydot.png" label="Essence of Flame" name="essenceofflame"/>
+      <ability icon="sk_runekeeper_lightning_nukecritical.png" label="Essence of Storm" name="essenceofstorm"/>
+      <ability icon="sk_runekeeper_frost_nukefrigid.png" label="Essence of Winter" name="essenceofwinter"/>
+      <ability icon="sk_runekeeper_balance_falltoelement_lightning.png" label="Fall to Storm" name="falltostorm"/>
+      <ability icon="sk_runekeeper_fire_nukedot.png" label="Fiery Ridicule" name="fieryridicule"/>
+      <ability icon="sk_runekeeper_balance_rangedinterrupt.png" label="Final Word" name="finalword"/>
+      <ability icon="sk_runekeeper_frost_aoehotspot.png" label="Flurry of Words" name="flurryofwords"/>
+      <ability icon="sk_runekeeper_frost_ultimate.png" label="Frozen Epilogue" name="frozenepilogue"/>
+      <ability icon="sk_runekeeper_heal_incomminghealing.png" label="Glorious Foreshadowing" name="gloriousforeshadowing"/>
+      <ability icon="sk_runekeeper_balance_avoiddeath_improved.png" label="Improved Do Not Fall This Day" name="improveddonotfallthisday"/>
+      <ability icon="sk_runekeeper_fire_maxtiereddot_improved.png" label="Improved Essay of Fire" name="improvedessayoffire"/>
+      <ability icon="sk_runekeeper_balance_rangedinterrupt_improved.png" label="Improved Final Word" name="improvedfinalword"/>
+      <ability icon="sk_runekeeper_heal_damageshare_improved.png" label="Improved Our Fates Entwined" name="improvedourfatesentwined"/>
+      <ability icon="sk_runekeeper_heal_smallhot_improved.png" label="Improved Prelude to Hope" name="improvedpreludetohope"/>
+      <ability icon="sk_runekeeper_heal_aoechannel_improved.png" label="Improved Rousing Words" name="improvedrousingwords"/>
+      <ability icon="sk_runekeeper_fire_aoe_improved.png" label="Improved Scathing Mockery" name="improvedscathingmockery"/>
+      <ability icon="sk_runekeeper_lightning_powernuke_improved.png" label="Improved Sustaining Bolt" name="improvedsustainingbolt"/>
+      <ability icon="sk_runekeeper_balance_elementalweapon_lightning_64.png" label="Improved Weapon of Storm" name="improvedweaponofstorm"/>
+      <ability icon="sk_runekeeper_balance_tiermaster_combo.png" label="Master of Writs" name="masterofwrits"/>
+      <ability icon="sk_runekeeper_heal_healhot.png" label="Mending Verse" name="mendingverse"/>
+      <ability icon="sk_runekeeper_balance_oocres.png" label="Nothing Truly Ends" name="nothingtrulyends"/>
+      <ability icon="sk_runekeeper_heal_damageshare.png" label="Our Fates Entwined" name="ourfatesentwined"/>
+      <ability icon="sk_runekeeper_heal_smallhot.png" label="Prelude to Hope" name="preludetohope"/>
+      <ability icon="sk_runekeeper_heal_aoechannel.png" label="Rousing Words" name="rousingwords"/>
+      <ability icon="sk_runekeeper_heal_aoepet.png" label="Rune of Restoration" name="runeofrestoration"/>
+      <ability icon="sk_runekeeper_fire_aoe.png" label="Scathing Mockery" name="scathingmockery"/>
+      <ability icon="sk_runekeeper_lightning_nukethunderstruck.png" label="Scribe's Spark" name="scribesspark"/>
+      <ability icon="sk_runekeeper_balance_powerrestore.png" label="Self-motivation" name="selfmotivation"/>
+      <ability icon="sk_runekeeper_balance_daze.png" label="Shocking Touch" name="shockingtouch"/>
+      <ability icon="sk_runekeeper_lightning_synergystun.png" label="Shocking Words" name="shockingwords"/>
+      <ability icon="sk_runekeeper_fire_ultimate.png" label="Smouldering Wrath" name="smoulderingwrath"/>
+      <ability icon="sk_runekeeper_lightning_powernuke_combo.png" label="Sustaining Bolt" name="sustainingbolt"/>
+      <ability icon="sk_runekeeper_balance_avoidwound.png" label="The Blade will not Wound" name="thebladewillnotwound"/>
+      <ability icon="sk_runekeeper_balance_avoidpoision.png" label="The Fang will not Poison" name="thefangwillnotpoison"/>
+      <ability icon="sk_runekeeper_lightning_aoedaze.png" label="Vivid Imagery" name="vividimagery"/>
+      <ability icon="sk_runekeeper_balance_elementalweapon_lightning.png" label="Weapon of Storm" name="weaponofstorm"/>
+      <ability icon="sk_runekeeper_heal_incomminghealing_upgrade.png" label="Wondrous Foreshadowing" name="wondrousforeshadowing"/>
+      <ability icon="sk_runekeeper_heal_cashout.png" label="Word of Exaltation" name="wordofexaltation"/>
+      <ability icon="sk_runekeeper_frost_nukechill.png" label="Writ of Cold" name="writofcold"/>
+      <ability icon="sk_runekeeper_fire_tiereddot.png" label="Writ of Fire" name="writoffire"/>
+      <ability icon="sk_runekeeper_heal_hotupgrade.png" label="Writ of Health" name="writofhealth"/>
     </category>
     <category icon="warden.png" label="Warden" name="warden">
-      <ability icon="sk_warden_adroitmaneuver.png" label="Adroit Manoeuvre" name="adroitmanoeuvre" />
-      <ability icon="sk_warden_aggression.png" label="Aggression" name="aggression" />
-      <ability icon="sk_warden_ambush.png" label="Ambush" name="ambush" />
-      <ability icon="sk_warden_boarsrush.png" label="Boar's Rush" name="boarsrush" />
-      <ability icon="sk_warden_brinkofvictory.png" label="Brink of Victory" name="brinkofvictory" />
-      <ability icon="sk_warden_carefulstep.png" label="Careful Step" name="carefulstep" />
-      <ability icon="sk_warden_celebrationofskill.png" label="Celebration of Skill" name="celebrationofskill" />
-      <ability icon="sk_warden_combinationstrike.png" label="Combination Strike" name="combinationstrike" />
-      <ability icon="sk_warden_conservation.png" label="Conservation" name="conservation" />
-      <ability icon="sk_warden_conviction.png" label="Conviction" name="conviction" />
-      <ability icon="sk_warden_ambush_finish.png" label="Critical Strike" name="criticalstrike" />
-      <ability icon="sk_warden_danceofbattle.png" label="Dance of War" name="danceofwar" />
-      <ability icon="sk_captain_readying_strike_r1.png" label="Defensive Strike" name="defensivestrike" />
-      <ability icon="sk_warden_deflection.png" label="Deflection" name="deflection" />
-      <ability icon="sk_warden_deftstrike.png" label="Deft Strike" name="deftstrike" />
-      <ability icon="sk_warden_desolation.png" label="Desolation" name="desolation" />
-      <ability icon="sk_warden_determination.png" label="Determination" name="determination" />
-      <ability icon="sk_warden_exultationofbattle.png" label="Exultation of Battle" name="exultationofbattle" />
-      <ability icon="sk_warden_fierceresolve.png" label="Fierce Resolve" name="fierceresolve" />
-      <ability icon="sk_warden_forcedmarch.png" label="Forced March" name="forcedmarch" />
-      <ability icon="sk_warden_wildswing.png" label="Gambit Default" name="gambitdefault" />
-      <ability icon="sk_warden_goad.png" label="Goad" name="goad" />
-      <ability icon="sk_warden_hampering_javelin.png" label="Hampering Javelin" name="hamperingjavelin" />
-      <ability icon="sk_warden_impressiveflourish.png" label="Impressive Flourish" name="impressiveflourish" />
-      <ability icon="sk_warden_javelintoss.png" label="Javelin-toss" name="javelintoss" />
-      <ability icon="sk_warden_combinationfeint.png" label="Maddening Strike" name="maddeningstrike" />
-      <ability icon="sk_warden_mightyblow.png" label="Mighty Blow" name="mightyblow" />
-      <ability icon="sk_warden_muster_esteldin.png" label="Muster in Esteldín" name="musterinesteldn" />
-      <ability icon="sk_warden_muster_evendim.png" label="Muster in Evendim" name="musterinevendim" />
-      <ability icon="sk_warden_muster_ostguruth.png" label="Muster in Ost Guruth" name="musterinostguruth" />
-      <ability icon="sk_warden_muster_rivendell.png" label="Muster in Rivendell" name="musterinrivendell" />
-      <ability icon="sk_warden_neversurrender.png" label="Never Surrender" name="neversurrender" />
-      <ability icon="sk_warden_offensivestrike.png" label="Offensive Strike" name="offensivestrike" />
-      <ability icon="sk_warden_onslaught.png" label="Onslaught" name="onslaught" />
-      <ability icon="sk_warden_persevere.png" label="Persevere" name="persevere" />
-      <ability icon="sk_warden_piercingstrike.png" label="Piercing Strike" name="piercingstrike" />
-      <ability icon="sk_warden_powerattack.png" label="Power Attack" name="powerattack" />
-      <ability icon="sk_warden_preciseblow.png" label="Precise Blow" name="preciseblow" />
-      <ability icon="sk_warden_quickrecovery.png" label="Quick Recovery" name="quickrecovery" />
-      <ability icon="sk_warden_quickthrust.png" label="Quick Thrust" name="quickthrust" />
-      <ability icon="sk_warden_recklessness.png" label="Recklessness" name="recklessness" />
-      <ability icon="sk_warden_recovery.png" label="Recovery" name="recovery" />
-      <ability icon="sk_warden_resolution.png" label="Resolution" name="resolution" />
-      <ability icon="sk_warden_restoration.png" label="Restoration" name="restoration" />
-      <ability icon="sk_warden_reversal.png" label="Reversal" name="reversal" />
-      <ability icon="sk_warden_safeguard.png" label="Safeguard" name="safeguard" />
-      <ability icon="sk_warden_wayoftheshield.png" label="Shield Mastery" name="shieldmastery" />
-      <ability icon="sk_warden_shieldpiercer.png" label="Shield Piercer" name="shieldpiercer" />
-      <ability icon="sk_warden_shieldsup.png" label="Shield Up" name="shieldup" />
-      <ability icon="sk_warden_shieldbash.png" label="Shield-bash" name="shieldbash" />
-      <ability icon="sk_warden_spearofvirtue.png" label="Spear of Virtue" name="spearofvirtue" />
-      <ability icon="sk_warden_suretyofdeath.png" label="Surety of Death" name="suretyofdeath" />
-      <ability icon="sk_warden_boot.png" label="The Boot" name="theboot" />
-      <ability icon="sk_warden_darkbeforedawn.png" label="The Dark Before Dawn" name="thedarkbeforedawn" />
-      <ability icon="sk_warden_powerblow.png" label="Unerring Strike" name="unerringstrike" />
-      <ability icon="sk_warden_retaliation.png" label="Wages of Fear" name="wagesoffear" />
-      <ability icon="sk_warden_wallofsteel.png" label="Wall of Steel" name="wallofsteel" />
-      <ability icon="sk_captain_rout_r1.png" label="War-cry" name="warcry" />
-      <ability icon="sk_warden_taunt.png" label="Warden's Taunt" name="wardenstaunt" />
-      <ability icon="sk_warden_wardenstriumph.png" label="Warden's Triumph" name="wardenstriumph" />
+      <ability icon="sk_warden_adroitmaneuver.png" label="Adroit Manoeuvre" name="adroitmanoeuvre"/>
+      <ability icon="sk_warden_aggression.png" label="Aggression" name="aggression"/>
+      <ability icon="sk_warden_ambush.png" label="Ambush" name="ambush"/>
+      <ability icon="sk_warden_boarsrush.png" label="Boar's Rush" name="boarsrush"/>
+      <ability icon="sk_warden_brinkofvictory.png" label="Brink of Victory" name="brinkofvictory"/>
+      <ability icon="sk_warden_carefulstep.png" label="Careful Step" name="carefulstep"/>
+      <ability icon="sk_warden_celebrationofskill.png" label="Celebration of Skill" name="celebrationofskill"/>
+      <ability icon="sk_warden_combinationstrike.png" label="Combination Strike" name="combinationstrike"/>
+      <ability icon="sk_warden_conservation.png" label="Conservation" name="conservation"/>
+      <ability icon="sk_warden_conviction.png" label="Conviction" name="conviction"/>
+      <ability icon="sk_warden_ambush_finish.png" label="Critical Strike" name="criticalstrike"/>
+      <ability icon="sk_warden_danceofbattle.png" label="Dance of War" name="danceofwar"/>
+      <ability icon="sk_captain_readying_strike_r1.png" label="Defensive Strike" name="defensivestrike"/>
+      <ability icon="sk_warden_deflection.png" label="Deflection" name="deflection"/>
+      <ability icon="sk_warden_deftstrike.png" label="Deft Strike" name="deftstrike"/>
+      <ability icon="sk_warden_desolation.png" label="Desolation" name="desolation"/>
+      <ability icon="sk_warden_determination.png" label="Determination" name="determination"/>
+      <ability icon="sk_warden_exultationofbattle.png" label="Exultation of Battle" name="exultationofbattle"/>
+      <ability icon="sk_warden_fierceresolve.png" label="Fierce Resolve" name="fierceresolve"/>
+      <ability icon="sk_warden_forcedmarch.png" label="Forced March" name="forcedmarch"/>
+      <ability icon="sk_warden_wildswing.png" label="Gambit Default" name="gambitdefault"/>
+      <ability icon="sk_warden_goad.png" label="Goad" name="goad"/>
+      <ability icon="sk_warden_hampering_javelin.png" label="Hampering Javelin" name="hamperingjavelin"/>
+      <ability icon="sk_warden_impressiveflourish.png" label="Impressive Flourish" name="impressiveflourish"/>
+      <ability icon="sk_warden_javelintoss.png" label="Javelin-toss" name="javelintoss"/>
+      <ability icon="sk_warden_combinationfeint.png" label="Maddening Strike" name="maddeningstrike"/>
+      <ability icon="sk_warden_mightyblow.png" label="Mighty Blow" name="mightyblow"/>
+      <ability icon="sk_warden_muster_esteldin.png" label="Muster in Esteldín" name="musterinesteldn"/>
+      <ability icon="sk_warden_muster_evendim.png" label="Muster in Evendim" name="musterinevendim"/>
+      <ability icon="sk_warden_muster_ostguruth.png" label="Muster in Ost Guruth" name="musterinostguruth"/>
+      <ability icon="sk_warden_muster_rivendell.png" label="Muster in Rivendell" name="musterinrivendell"/>
+      <ability icon="sk_warden_neversurrender.png" label="Never Surrender" name="neversurrender"/>
+      <ability icon="sk_warden_offensivestrike.png" label="Offensive Strike" name="offensivestrike"/>
+      <ability icon="sk_warden_onslaught.png" label="Onslaught" name="onslaught"/>
+      <ability icon="sk_warden_persevere.png" label="Persevere" name="persevere"/>
+      <ability icon="sk_warden_piercingstrike.png" label="Piercing Strike" name="piercingstrike"/>
+      <ability icon="sk_warden_powerattack.png" label="Power Attack" name="powerattack"/>
+      <ability icon="sk_warden_preciseblow.png" label="Precise Blow" name="preciseblow"/>
+      <ability icon="sk_warden_quickrecovery.png" label="Quick Recovery" name="quickrecovery"/>
+      <ability icon="sk_warden_quickthrust.png" label="Quick Thrust" name="quickthrust"/>
+      <ability icon="sk_warden_recklessness.png" label="Recklessness" name="recklessness"/>
+      <ability icon="sk_warden_recovery.png" label="Recovery" name="recovery"/>
+      <ability icon="sk_warden_resolution.png" label="Resolution" name="resolution"/>
+      <ability icon="sk_warden_restoration.png" label="Restoration" name="restoration"/>
+      <ability icon="sk_warden_reversal.png" label="Reversal" name="reversal"/>
+      <ability icon="sk_warden_safeguard.png" label="Safeguard" name="safeguard"/>
+      <ability icon="sk_warden_wayoftheshield.png" label="Shield Mastery" name="shieldmastery"/>
+      <ability icon="sk_warden_shieldpiercer.png" label="Shield Piercer" name="shieldpiercer"/>
+      <ability icon="sk_warden_shieldsup.png" label="Shield Up" name="shieldup"/>
+      <ability icon="sk_warden_shieldbash.png" label="Shield-bash" name="shieldbash"/>
+      <ability icon="sk_warden_spearofvirtue.png" label="Spear of Virtue" name="spearofvirtue"/>
+      <ability icon="sk_warden_suretyofdeath.png" label="Surety of Death" name="suretyofdeath"/>
+      <ability icon="sk_warden_boot.png" label="The Boot" name="theboot"/>
+      <ability icon="sk_warden_darkbeforedawn.png" label="The Dark Before Dawn" name="thedarkbeforedawn"/>
+      <ability icon="sk_warden_powerblow.png" label="Unerring Strike" name="unerringstrike"/>
+      <ability icon="sk_warden_retaliation.png" label="Wages of Fear" name="wagesoffear"/>
+      <ability icon="sk_warden_wallofsteel.png" label="Wall of Steel" name="wallofsteel"/>
+      <ability icon="sk_captain_rout_r1.png" label="War-cry" name="warcry"/>
+      <ability icon="sk_warden_taunt.png" label="Warden's Taunt" name="wardenstaunt"/>
+      <ability icon="sk_warden_wardenstriumph.png" label="Warden's Triumph" name="wardenstriumph"/>
     </category>
   </abilities>
   <items>
-    <category icon="general.png" label="Unsorted" name="general"></category>
-    <category icon="weapons.jpg" label="Weapons" name="weapons">
-      <category icon="onehandedweapons.jpg" label="One-Handed Weapons" name="onehandedweapons"></category>
-      <category icon="twohandedweapons.jpg" label="Two-Handed Weapons" name="twohandedweapons"></category>
-      <category icon="rangedweapons.jpg" label="Ranged Weapons" name="rangedweapons"></category>
-      <category icon="runestones.jpg" label="Rune-Stones" name="runestones"></category>
-    </category>
-    <category icon="armour.jpg" label="Armour" name="armour">
-      <category icon="lightarmour.jpg" label="Light Armour" name="lightarmour"></category>
-      <category icon="mediumarmour.jpg" label="Medium Armour" name="mediumarmour"></category>
-      <category icon="heavyarmour.jpg" label="Heavy Armour" name="heavyarmour"></category>
-      <category icon="shields.jpg" label="Shields" name="shields"></category>
-    </category>
-    <category icon="jewellery.jpg" label="Jewellery" name="jewellery"></category>
-    <category icon="consumables.jpg" label="Consumables" name="consumables">
-      <category icon="cookedfood.jpg" label="Cooked Food" name="cookedfood"></category>
-      <category icon="fortifyingfood.jpg" label="Fortifying Food" name="fortifyingfood"></category>
-      <category icon="trailfood.jpg" label="Trail Food" name="trailfood"></category>
-      <category icon="finedrinks.jpg" label="Fine Drinks" name="finedrinks"></category>
-      <category icon="strongdrinks.jpg" label="Strong Drinks" name="strongdrinks"></category>
-      <category icon="pipeweed.jpg" label="Pipe-Weed" name="pipeweed"></category>
-      <category icon="potions.jpg" label="Potions" name="potions"></category>
-      <category icon="scrolls.jpg" label="Scrolls" name="scrolls"></category>
-      <category icon="tokens.jpg" label="Tokens" name="tokens"></category>
-    </category>
   </items>
 </controller>
