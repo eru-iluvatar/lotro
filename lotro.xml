@@ -22,7 +22,7 @@
   </settings>
   <commands>
     <category icon="camera.png" label="Camera" name="camera">
-      <command icon="camera.png.png" label="Reset Camera" name="resetcamera">
+      <command icon="camera.png" label="Reset Camera" name="resetcamera">
         <steps>
           <keypress alt="false" ctrl="false" key="VK_NUMPAD0" shift="false"/>
         </steps>
@@ -583,78 +583,78 @@
         </steps>
       </command>
     </category>
-    <category icon="targeting.jpg" label="Targeting" name="targeting">
-      <command icon="assist.jpg" label="Assist" name="assist">
+    <category icon="targeting.png" label="Targeting" name="targeting">
+      <command icon="assist.png" label="Assist" name="assist">
         <steps>
           <keypress alt="false" ctrl="false" key="VK_F" shift="false"/>
         </steps>
       </command>
-      <command icon="nearestitem.jpg" label="Select Nearest Item" name="selectnearestitem">
+      <command icon="nearestitem.png" label="Select Nearest Item" name="selectnearestitem">
         <steps>
           <keypress alt="false" ctrl="false" key="VK_DELETE" shift="false"/>
         </steps>
       </command>
-      <command icon="self.jpg" label="Select Self" name="selectself">
+      <command icon="self.png" label="Select Self" name="selectself">
         <steps>
           <keypress alt="false" ctrl="false" key="VK_BACK_SLASH" shift="false"/>
         </steps>
       </command>
-      <command icon="nearestenemy.jpg" label="Select Nearest Foe" name="selectnearestfoe">
+      <command icon="nearestenemy.png" label="Select Nearest Foe" name="selectnearestfoe">
         <steps>
           <keypress alt="false" ctrl="false" key="VK_BACK_SPACE" shift="false"/>
         </steps>
       </command>
-      <command icon="nearestfriend.jpg" label="Select Nearest Fellow" name="selectnearestfellow">
+      <command icon="nearestfriend.png" label="Select Nearest Fellow" name="selectnearestfellow">
         <steps>
           <keypress alt="false" ctrl="false" key="VK_F8" shift="false"/>
         </steps>
       </command>
-      <command icon="nearestplayer.jpg" label="Select Nearest Player" name="selectnearestplayer">
+      <command icon="nearestplayer.png" label="Select Nearest Player" name="selectnearestplayer">
         <steps>
           <keypress alt="false" ctrl="false" key="VK_F9" shift="false"/>
         </steps>
       </command>
-      <command icon="nearestnpc.jpg" label="Select Nearest NPC" name="selectnearestnpc">
+      <command icon="nearestnpc.png" label="Select Nearest NPC" name="selectnearestnpc">
         <steps>
           <keypress alt="false" ctrl="false" key="VK_F10" shift="false"/>
         </steps>
       </command>
-      <command icon="nextenemy.jpg" label="Select Next Foe" name="selectnextfoe">
+      <command icon="nextenemy.png" label="Select Next Foe" name="selectnextfoe">
         <steps>
           <keypress alt="false" ctrl="false" key="VK_TAB" shift="false"/>
         </steps>
       </command>
-      <command icon="nextplayer.jpg" label="Select Next Player" name="selectnextplayer">
+      <command icon="nextplayer.png" label="Select Next Player" name="selectnextplayer">
         <steps>
           <keypress alt="false" ctrl="true" key="VK_F9" shift="true"/>
         </steps>
       </command>
-      <command icon="fellow1.jpg" label="Select Fellow 1" name="selectfellow1">
+      <command icon="fellow1.png" label="Select Fellow 1" name="selectfellow1">
         <steps>
           <keypress alt="false" ctrl="false" key="VK_F1" shift="true"/>
         </steps>
       </command>
-      <command icon="fellow2.jpg" label="Select Fellow 2" name="selectfellow2">
+      <command icon="fellow2.png" label="Select Fellow 2" name="selectfellow2">
         <steps>
           <keypress alt="false" ctrl="false" key="VK_F2" shift="true"/>
         </steps>
       </command>
-      <command icon="fellow3.jpg" label="Select Fellow 3" name="selectfellow3">
+      <command icon="fellow3.png" label="Select Fellow 3" name="selectfellow3">
         <steps>
           <keypress alt="false" ctrl="false" key="VK_F3" shift="true"/>
         </steps>
       </command>
-      <command icon="fellow4.jpg" label="Select Fellow 4" name="selectfellow4">
+      <command icon="fellow4.png" label="Select Fellow 4" name="selectfellow4">
         <steps>
           <keypress alt="false" ctrl="false" key="VK_F4" shift="true"/>
         </steps>
       </command>
-      <command icon="fellow5.jpg" label="Select Fellow 5" name="selectfellow5">
+      <command icon="fellow5.png" label="Select Fellow 5" name="selectfellow5">
         <steps>
           <keypress alt="false" ctrl="false" key="VK_F5" shift="true"/>
         </steps>
       </command>
-      <command icon="fellow6.jpg" label="Select Fellow 6" name="selectfellow6">
+      <command icon="fellow6.png" label="Select Fellow 6" name="selectfellow6">
         <steps>
           <keypress alt="false" ctrl="false" key="VK_F6" shift="true"/>
         </steps>
